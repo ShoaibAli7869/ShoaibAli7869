@@ -4,21 +4,20 @@
 
 <br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=750&height=120&lines=%E2%9A%A1+Transforming+Ideas+Into+Elegant+Digital+Experiences;%F0%9F%94%AE+MERN+Stack+%7C+Artificial+Intelligence+%7C+Cloud+Native;%F0%9F%8E%AF+Clean+Architecture+%E2%80%A2+Smart+Solutions+%E2%80%A2+Real+Impact" alt="Typing SVG" />
-</a>
+
+
 
 <br/>
 
-<a href="https://github.com/Caligulla69?tab=followers">
-  <img src="https://img.shields.io/github/followers/Caligulla69?style=for-the-badge&color=A855F7&labelColor=0D1117&logo=github&logoColor=A855F7&label=FOLLOWERS" alt="Followers"/>
+<a href="https://github.com/ShoaibAli7869?tab=followers">
+  <img src="https://img.shields.io/github/followers/ShoaibAli7869?style=for-the-badge&color=A855F7&labelColor=0D1117&logo=github&logoColor=A855F7&label=FOLLOWERS" alt="Followers"/>
 </a>
 <img width="6"/>
-<a href="https://github.com/Caligulla69?tab=repositories&sort=stargazers">
-  <img src="https://img.shields.io/github/stars/Caligulla69?style=for-the-badge&color=2DD4BF&labelColor=0D1117&logo=github&logoColor=2DD4BF&label=STARS" alt="Stars"/>
+<a href="https://github.com/ShoaibAli7869?tab=repositories&sort=stargazers">
+  <img src="https://img.shields.io/github/stars/ShoaibAli7869?style=for-the-badge&color=2DD4BF&labelColor=0D1117&logo=github&logoColor=2DD4BF&label=STARS" alt="Stars"/>
 </a>
 <img width="6"/>
-<img src="https://komarev.com/ghpvc/?username=Caligulla69&style=for-the-badge&color=6366F1&labelColor=0D1117&label=PROFILE+VIEWS" alt="Views"/>
+<img src="https://komarev.com/ghpvc/?username=ShoaibAli7869&style=for-the-badge&color=6366F1&labelColor=0D1117&label=PROFILE+VIEWS" alt="Views"/>
 
 <br/><br/>
 
@@ -232,13 +231,13 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=Caligulla69&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=2DD4BF&text_color=C9D1D9&ring_color=A855F7&rank_icon=github&border_radius=20&card_width=450" alt="Stats"/>
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=ShoaibAli7869&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=2DD4BF&text_color=C9D1D9&ring_color=A855F7&rank_icon=github&border_radius=20&card_width=450" alt="Stats"/>
 <img width="10"/>
-<img height="195" src="https://streak-stats.demolab.com/?user=Caligulla69&hide_border=true&background=0D1117&stroke=161B22&ring=A855F7&fire=2DD4BF&currStreakLabel=A855F7&sideLabels=A855F7&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=20" alt="Streak"/>
+<img height="195" src="https://streak-stats.demolab.com/?user=ShoaibAli7869&hide_border=true&background=0D1117&stroke=161B22&ring=A855F7&fire=2DD4BF&currStreakLabel=A855F7&sideLabels=A855F7&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=20" alt="Streak"/>
 
 <br/><br/>
 
-<img height="230" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Caligulla69&layout=donut-vertical&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&langs_count=8&border_radius=20" alt="Top Languages"/>
+<img height="230" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShoaibAli7869&layout=donut-vertical&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&langs_count=8&border_radius=20" alt="Top Languages"/>
 
 </div>
 
@@ -256,7 +255,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Caligulla69&bg_color=0D1117&color=A855F7&line=2DD4BF&point=A855F7&area_color=6366F1&area=true&hide_border=true&custom_title=Contribution%20Timeline&title_color=A855F7&radius=20" alt="Activity Graph" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ShoaibAli7869&bg_color=0D1117&color=A855F7&line=2DD4BF&point=A855F7&area_color=6366F1&area=true&hide_border=true&custom_title=Contribution%20Timeline&title_color=A855F7&radius=20" alt="Activity Graph" width="98%"/>
 
 </div>
 
@@ -274,7 +273,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Caligulla69&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies" width="98%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=ShoaibAli7869&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies" width="98%"/>
 
 </div>
 
@@ -315,9 +314,9 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Caligulla69/Caligulla69/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Caligulla69/Caligulla69/blob/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://github.com/Caligulla69/Caligulla69/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ShoaibAli7869/ShoaibAli7869/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ShoaibAli7869/ShoaibAli7869/blob/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://github.com/ShoaibAli7869/ShoaibAli7869/blob/output/github-snake-dark.svg" />
 </picture>
 
 </div>
@@ -328,7 +327,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <div align="center">
 
-<a href="https://www.buymeacoffee.com/Caligulla69" target="_blank">
+<a href="https://www.buymeacoffee.com/ShoaibAli7869" target="_blank">
   <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-0D1117?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/>
 </a>
 
