@@ -4,11 +4,6 @@
 
 <br/>
 
-
-
-
-<br/>
-
 <a href="https://github.com/ShoaibAli7869?tab=followers">
   <img src="https://img.shields.io/github/followers/ShoaibAli7869?style=for-the-badge&color=A855F7&labelColor=0D1117&logo=github&logoColor=A855F7&label=FOLLOWERS" alt="Followers"/>
 </a>
@@ -21,13 +16,18 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<!-- ✦ GIT CITY HEADER ✦ -->
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/git-city-header.svg" width="100%"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3500&pause=1200&color=A855F7&center=true&vCenter=true&repeat=true&width=620&height=30&lines=%E2%9A%A1+Elite+Developer+Operating+From+The+Digital+City;%F0%9F%94%AE+Building+The+Future+One+Commit+At+A+Time;%F0%9F%8C%83+Contributions+%3D+City+Lights+%7C+More+Code+%3D+Brighter+City" alt="Typing" />
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -45,15 +45,15 @@
 
 <br/>
 
-🏛️ &nbsp;**Full Stack Developer** crafting premium web experiences
+⚡ &nbsp;**Full Stack Developer** crafting premium web experiences
 
-🧠 &nbsp;Currently building **AI-Powered Intelligent Systems**
+🔮 &nbsp;Currently building **AI-Powered Intelligent Systems**
 
-📐 &nbsp;Obsessed with **Clean Architecture & System Design**
+🏗️ &nbsp;Obsessed with **Clean Architecture & System Design**
 
 🚀 &nbsp;Specializing in **MERN Stack & Machine Learning**
 
-🌍 &nbsp;Mission: **Build products that make a difference**
+🌐 &nbsp;Mission: **Build products that make a difference**
 
 💎 &nbsp;Philosophy: *Code should be elegant, not just functional*
 
@@ -63,7 +63,7 @@
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -135,7 +135,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -219,7 +219,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -243,7 +243,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -261,7 +261,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -279,7 +279,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/neon-divider.svg" width="100%">
 
 <br/>
 
@@ -311,6 +311,7 @@ Building <b>intelligent</b> systems<br/>with deep learning &<br/>computer vision
 
 <br/><br/>
 
+<!-- ✦ SNAKE CONTRIBUTION ANIMATION ✦ -->
 <div align="center">
 
 <picture>
