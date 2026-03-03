@@ -1,16 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" width="100%">
   <defs>
     <linearGradient id="ng" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
-      <stop offset="12%" stop-color="#A855F7" stop-opacity=".65"/>
-      <stop offset="30%" stop-color="#7C3AED" stop-opacity=".75"/>
-      <stop offset="50%" stop-color="#6366F1" stop-opacity=".85"/>
-      <stop offset="70%" stop-color="#2DD4BF" stop-opacity=".75"/>
-      <stop offset="88%" stop-color="#2DD4BF" stop-opacity=".65"/>
-      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="10%" stop-color="#A855F7" stop-opacity=".1"/>
+      <stop offset="25%" stop-color="#A855F7"/>
+      <stop offset="40%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#2DD4BF"/>
+      <stop offset="60%" stop-color="#6366F1"/>
+      <stop offset="75%" stop-color="#A855F7"/>
+      <stop offset="90%" stop-color="#A855F7" stop-opacity=".1"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
-    <filter id="gw"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="gl">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gl2">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect x="30" y="2" width="900" height="1.8" fill="url(#ng)" opacity=".55" rx="1"/>
-  <rect x="30" y="2.2" width="900" height="2.5" fill="url(#ng)" opacity=".18" filter="url(#gw)" rx="1"/>
+  <rect width="1200" height="16" fill="transparent"/>
+  <!-- Outer glow -->
+  <line x1="100" y1="8" x2="1100" y2="8" stroke="url(#ng)" stroke-width="3" filter="url(#gl2)" opacity=".2"/>
+  <!-- Main line -->
+  <line x1="0" y1="8" x2="1200" y2="8" stroke="url(#ng)" stroke-width="1" filter="url(#gl)" opacity=".85"/>
+  <!-- Sharp center -->
+  <line x1="200" y1="8" x2="1000" y2="8" stroke="url(#ng)" stroke-width=".2" opacity=".5"/>
+  <!-- Center diamond -->
+  <polygon points="600,3 605,8 600,13 595,8" fill="#2DD4BF" opacity=".3" filter="url(#gl)"/>
 </svg>
