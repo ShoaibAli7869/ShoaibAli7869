@@ -1,152 +1,207 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300">
   <defs>
-    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="960" height="4">
-      <rect width="960" height="1" y="3" fill="#fff" opacity=".02"/>
+    <pattern id="scan" patternUnits="userSpaceOnUse" width="960" height="4">
+      <rect width="960" height="1" y="3" fill="#fff" opacity=".012"/>
     </pattern>
-    <pattern id="wa" patternUnits="userSpaceOnUse" width="22" height="16">
-      <rect x="1" y="1" width="8" height="5" fill="#b8ff57" opacity=".85"/>
-      <rect x="12" y="1" width="8" height="5" fill="#b8ff57" opacity=".15"/>
-      <rect x="1" y="9" width="8" height="5" fill="#b8ff57" opacity=".35"/>
-      <rect x="12" y="9" width="8" height="5" fill="#b8ff57" opacity=".7"/>
+
+    <pattern id="wp1" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#A855F7" opacity=".78"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#A855F7" opacity=".12"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#A855F7" opacity=".32"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#A855F7" opacity=".62"/>
     </pattern>
-    <pattern id="wb" patternUnits="userSpaceOnUse" width="22" height="16">
-      <rect x="1" y="1" width="8" height="5" fill="#b8ff57" opacity=".2"/>
-      <rect x="12" y="1" width="8" height="5" fill="#b8ff57" opacity=".9"/>
-      <rect x="1" y="9" width="8" height="5" fill="#b8ff57" opacity=".55"/>
-      <rect x="12" y="9" width="8" height="5" fill="#b8ff57" opacity=".25"/>
+    <pattern id="wp2" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#A855F7" opacity=".18"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#A855F7" opacity=".82"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#A855F7" opacity=".52"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#A855F7" opacity=".14"/>
     </pattern>
-    <pattern id="wc" patternUnits="userSpaceOnUse" width="22" height="16">
-      <rect x="1" y="1" width="8" height="5" fill="#b8ff57" opacity=".5"/>
-      <rect x="12" y="1" width="8" height="5" fill="#b8ff57" opacity=".8"/>
-      <rect x="1" y="9" width="8" height="5" fill="#b8ff57" opacity=".1"/>
-      <rect x="12" y="9" width="8" height="5" fill="#b8ff57" opacity=".6"/>
+    <pattern id="wt1" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".65"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".15"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".4"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".72"/>
     </pattern>
-    <filter id="g1"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="g2"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="wt2" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".14"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".68"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".38"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".8"/>
+    </pattern>
+    <pattern id="wm" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#A855F7" opacity=".45"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".55"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#2DD4BF" opacity=".22"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#A855F7" opacity=".38"/>
+    </pattern>
+    <pattern id="wi" patternUnits="userSpaceOnUse" width="18" height="12">
+      <rect x="1" y="1" width="6" height="4" rx=".5" fill="#6366F1" opacity=".55"/>
+      <rect x="10" y="1" width="6" height="4" rx=".5" fill="#6366F1" opacity=".2"/>
+      <rect x="1" y="7" width="6" height="4" rx=".5" fill="#6366F1" opacity=".35"/>
+      <rect x="10" y="7" width="6" height="4" rx=".5" fill="#6366F1" opacity=".65"/>
+    </pattern>
+
+    <filter id="gs"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gm"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gl"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#060a12"/>
-      <stop offset="100%" stop-color="#0c1420"/>
+      <stop offset="0%" stop-color="#030612"/>
+      <stop offset="40%" stop-color="#070b18"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="gnd" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity=".03"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity=".03"/>
+    </linearGradient>
+    <linearGradient id="refl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity=".04"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="divl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity=".08"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity=".08"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="960" height="320" fill="url(#sky)" rx="8"/>
-  <rect width="960" height="320" fill="url(#scanlines)" rx="8"/>
-  <rect x="1" y="1" width="958" height="318" fill="none" stroke="#131b28" rx="8"/>
+  <!-- ══ BACKGROUND ══ -->
+  <rect width="960" height="300" fill="url(#sky)" rx="8"/>
+  <rect width="960" height="300" fill="url(#scan)" rx="8"/>
+  <rect x=".5" y=".5" width="959" height="299" fill="none" stroke="#A855F7" stroke-width=".3" rx="8" opacity=".08"/>
 
-  <!-- Terminal corner brackets -->
-  <path d="M12,8 L8,8 L8,22" stroke="#b8ff57" stroke-width="1.5" fill="none" opacity=".25"/>
-  <path d="M948,8 L952,8 L952,22" stroke="#b8ff57" stroke-width="1.5" fill="none" opacity=".25"/>
-  <path d="M12,312 L8,312 L8,298" stroke="#b8ff57" stroke-width="1.5" fill="none" opacity=".25"/>
-  <path d="M948,312 L952,312 L952,298" stroke="#b8ff57" stroke-width="1.5" fill="none" opacity=".25"/>
+  <!-- ══ CORNER BRACKETS ══ -->
+  <path d="M16,6 L6,6 L6,24" stroke="#A855F7" stroke-width="1.8" fill="none" opacity=".2"/>
+  <path d="M944,6 L954,6 L954,24" stroke="#2DD4BF" stroke-width="1.8" fill="none" opacity=".2"/>
+  <path d="M16,294 L6,294 L6,276" stroke="#2DD4BF" stroke-width="1.8" fill="none" opacity=".2"/>
+  <path d="M944,294 L954,294 L954,276" stroke="#A855F7" stroke-width="1.8" fill="none" opacity=".2"/>
 
-  <!-- ══════ CITY SKYLINE (Left) ══════ -->
+  <!-- ══ STARS ══ -->
+  <circle cx="38" cy="24" r="1" fill="#A855F7" opacity=".22"><animate attributeName="opacity" values=".22;.08;.22" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="98" cy="14" r=".7" fill="#2DD4BF" opacity=".18"/>
+  <circle cx="172" cy="36" r="1.1" fill="#6366F1" opacity=".12"/>
+  <circle cx="245" cy="18" r=".8" fill="#A855F7" opacity=".16"><animate attributeName="opacity" values=".16;.04;.16" dur="5.5s" repeatCount="indefinite"/></circle>
+  <circle cx="320" cy="40" r=".9" fill="#2DD4BF" opacity=".14"/>
+  <circle cx="72" cy="46" r=".6" fill="#A855F7" opacity=".2"/>
+  <circle cx="290" cy="10" r=".7" fill="#6366F1" opacity=".1"/>
+  <circle cx="148" cy="20" r=".9" fill="#2DD4BF" opacity=".15"><animate attributeName="opacity" values=".15;.05;.15" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="370" cy="28" r=".5" fill="#A855F7" opacity=".18"/>
+  <circle cx="210" cy="8" r=".6" fill="#2DD4BF" opacity=".12"/>
+  <circle cx="55" cy="56" r=".4" fill="#6366F1" opacity=".15"/>
+  <circle cx="395" cy="48" r=".7" fill="#A855F7" opacity=".1"/>
 
-  <!-- Stars -->
-  <circle cx="50" cy="38" r="1" fill="#b8ff57" opacity=".3"/>
-  <circle cx="115" cy="22" r=".8" fill="#b8ff57" opacity=".2"/>
-  <circle cx="198" cy="48" r="1.1" fill="#b8ff57" opacity=".15"/>
-  <circle cx="275" cy="32" r=".7" fill="#b8ff57" opacity=".25"/>
-  <circle cx="350" cy="52" r=".9" fill="#b8ff57" opacity=".2"/>
-  <circle cx="88" cy="58" r=".6" fill="#b8ff57" opacity=".35"/>
-  <circle cx="310" cy="18" r=".8" fill="#b8ff57" opacity=".15"/>
-  <circle cx="170" cy="30" r="1" fill="#b8ff57" opacity=".2"/>
+  <!-- ══ GROUND ══ -->
+  <rect x="14" y="270" width="410" height="22" fill="url(#gnd)"/>
+  <rect x="14" y="272" width="410" height="16" fill="url(#refl)"/>
+  <line x1="16" y1="270" x2="420" y2="270" stroke="#A855F7" stroke-width=".35" opacity=".12"/>
 
-  <!-- Ground -->
-  <line x1="18" y1="290" x2="400" y2="290" stroke="#1a2e1e" stroke-width=".6" opacity=".4"/>
+  <!-- ══ CITY SKYLINE ══ -->
 
-  <!-- Building 1 -->
-  <rect x="22" y="205" width="30" height="85" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="24" y="207" width="26" height="81" fill="url(#wa)"/>
+  <!-- B1 — medium -->
+  <rect x="22" y="202" width="30" height="68" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="24" y="204" width="26" height="64" fill="url(#wp1)" rx="1"/>
 
-  <!-- Building 2 -->
-  <rect x="57" y="125" width="26" height="165" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="59" y="127" width="22" height="161" fill="url(#wb)"/>
+  <!-- B2 — tall -->
+  <rect x="58" y="122" width="28" height="148" fill="#060a16" stroke="#0a1828" stroke-width=".5" rx="1"/>
+  <rect x="60" y="124" width="24" height="144" fill="url(#wt1)" rx="1"/>
 
-  <!-- Building 3 -->
-  <rect x="88" y="248" width="38" height="42" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="90" y="250" width="34" height="38" fill="url(#wc)"/>
+  <!-- B3 — short -->
+  <rect x="90" y="238" width="36" height="32" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="92" y="240" width="32" height="28" fill="url(#wm)" rx="1"/>
 
-  <!-- Building 4 (antenna) -->
-  <rect x="131" y="78" width="26" height="212" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="133" y="80" width="22" height="208" fill="url(#wa)"/>
-  <line x1="144" y1="78" x2="144" y2="60" stroke="#b8ff57" stroke-width="1" opacity=".35"/>
-  <circle cx="144" cy="58" r="2" fill="#b8ff57" opacity=".5">
-    <animate attributeName="opacity" values=".5;.1;.5" dur="2.5s" repeatCount="indefinite"/>
+  <!-- B4 — very tall + antenna -->
+  <rect x="132" y="74" width="28" height="196" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="134" y="76" width="24" height="192" fill="url(#wp2)" rx="1"/>
+  <rect x="143" y="68" width="4" height="6" fill="#0e0820" rx=".5"/>
+  <line x1="145" y1="68" x2="145" y2="48" stroke="#A855F7" stroke-width="1" opacity=".25"/>
+  <circle cx="145" cy="46" r="2.8" fill="#A855F7" opacity=".55" filter="url(#gs)">
+    <animate attributeName="opacity" values=".55;.08;.55" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 5 -->
-  <rect x="162" y="168" width="34" height="122" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="164" y="170" width="30" height="118" fill="url(#wb)"/>
+  <!-- B5 — medium-tall -->
+  <rect x="166" y="158" width="34" height="112" fill="#060a16" stroke="#0a1828" stroke-width=".5" rx="1"/>
+  <rect x="168" y="160" width="30" height="108" fill="url(#wi)" rx="1"/>
 
-  <!-- Building 6 -->
-  <rect x="201" y="232" width="26" height="58" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="203" y="234" width="22" height="54" fill="url(#wc)"/>
+  <!-- B6 — short -->
+  <rect x="206" y="220" width="26" height="50" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="208" y="222" width="22" height="46" fill="url(#wm)" rx="1"/>
 
-  <!-- Building 7 (tallest, antenna) -->
-  <rect x="232" y="52" width="30" height="238" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="234" y="54" width="26" height="234" fill="url(#wa)"/>
-  <line x1="247" y1="52" x2="247" y2="30" stroke="#b8ff57" stroke-width="1" opacity=".35"/>
-  <circle cx="247" cy="28" r="2.5" fill="#b8ff57" opacity=".6">
-    <animate attributeName="opacity" values=".6;.1;.6" dur="1.8s" repeatCount="indefinite"/>
+  <!-- B7 — TALLEST + antenna (centerpiece) -->
+  <rect x="238" y="46" width="32" height="224" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="240" y="48" width="28" height="220" fill="url(#wp1)" rx="1"/>
+  <rect x="250" y="38" width="6" height="8" fill="#0e0820" rx=".5"/>
+  <line x1="253" y1="38" x2="253" y2="16" stroke="#A855F7" stroke-width="1.2" opacity=".3"/>
+  <circle cx="253" cy="14" r="3.5" fill="#A855F7" opacity=".65" filter="url(#gm)">
+    <animate attributeName="opacity" values=".65;.06;.65" dur="1.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 8 -->
-  <rect x="267" y="140" width="26" height="150" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="269" y="142" width="22" height="146" fill="url(#wb)"/>
+  <!-- B8 — tall -->
+  <rect x="276" y="134" width="28" height="136" fill="#060a16" stroke="#0a1828" stroke-width=".5" rx="1"/>
+  <rect x="278" y="136" width="24" height="132" fill="url(#wt2)" rx="1"/>
 
-  <!-- Building 9 -->
-  <rect x="298" y="255" width="34" height="35" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="300" y="257" width="30" height="31" fill="url(#wc)"/>
+  <!-- B9 — very short -->
+  <rect x="310" y="250" width="30" height="20" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="312" y="252" width="26" height="16" fill="url(#wm)" rx="1"/>
 
-  <!-- Building 10 -->
-  <rect x="337" y="95" width="26" height="195" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="339" y="97" width="22" height="191" fill="url(#wa)"/>
-  <line x1="350" y1="95" x2="350" y2="80" stroke="#b8ff57" stroke-width="1" opacity=".3"/>
-  <circle cx="350" cy="78" r="1.5" fill="#b8ff57" opacity=".4">
-    <animate attributeName="opacity" values=".4;.08;.4" dur="3s" repeatCount="indefinite"/>
+  <!-- B10 — very tall + antenna -->
+  <rect x="346" y="90" width="28" height="180" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="348" y="92" width="24" height="176" fill="url(#wp2)" rx="1"/>
+  <rect x="357" y="84" width="4" height="6" fill="#0e0820" rx=".5"/>
+  <line x1="359" y1="84" x2="359" y2="66" stroke="#2DD4BF" stroke-width="1" opacity=".25"/>
+  <circle cx="359" cy="64" r="2.5" fill="#2DD4BF" opacity=".5" filter="url(#gs)">
+    <animate attributeName="opacity" values=".5;.06;.5" dur="2.6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 11 -->
-  <rect x="368" y="188" width="28" height="102" fill="#0c1220" stroke="#14202c" stroke-width=".3"/>
-  <rect x="370" y="190" width="24" height="98" fill="url(#wb)"/>
+  <!-- B11 — medium -->
+  <rect x="380" y="182" width="30" height="88" fill="#060a16" stroke="#0a1828" stroke-width=".5" rx="1"/>
+  <rect x="382" y="184" width="26" height="84" fill="url(#wt1)" rx="1"/>
 
-  <!-- ══════ DIVIDER ══════ -->
-  <line x1="418" y1="22" x2="418" y2="298" stroke="#151f2c" stroke-width="1" stroke-dasharray="3,6" opacity=".5"/>
+  <!-- B12 — small accent -->
+  <rect x="416" y="244" width="20" height="26" fill="#060a16" stroke="#110e28" stroke-width=".5" rx="1"/>
+  <rect x="418" y="246" width="16" height="22" fill="url(#wi)" rx="1"/>
 
-  <!-- ══════ PROFILE CARD (Right) ══════ -->
+  <!-- ══ VERTICAL DIVIDER ══ -->
+  <rect x="446" y="14" width="1" height="272" fill="url(#divl)" rx=".5"/>
+
+  <!-- ══ PROFILE CARD ══ -->
 
   <!-- Name -->
-  <text x="450" y="66" font-family="'Courier New',Courier,monospace" font-size="34" fill="#b8ff57" font-weight="bold" filter="url(#g2)" letter-spacing="3">SHOAIB ALI</text>
+  <text x="468" y="56" font-family="'Courier New',Courier,monospace" font-size="36" fill="#A855F7" font-weight="bold" filter="url(#gm)" letter-spacing="3">SHOAIB ALI</text>
 
   <!-- Handle -->
-  <text x="452" y="88" font-family="'Courier New',Courier,monospace" font-size="13" fill="#3a5c3a">@ShoaibAli7869</text>
+  <text x="470" y="78" font-family="'Courier New',Courier,monospace" font-size="12.5" fill="#6366F1" opacity=".55" letter-spacing=".5">@ShoaibAli7869</text>
 
   <!-- Status tag -->
-  <rect x="450" y="100" width="280" height="22" fill="none" stroke="#1a2e1e" stroke-width=".5" rx="3" opacity=".5"/>
-  <text x="462" y="115" font-family="'Courier New',Courier,monospace" font-size="10" fill="#b8ff57" opacity=".5" letter-spacing="1.5">&lt; ELITE DEVELOPER // IN THE CITY &gt;</text>
+  <rect x="468" y="90" width="420" height="22" fill="#060a16" stroke="#A855F7" stroke-width=".35" rx="3" opacity=".2"/>
+  <text x="480" y="105" font-family="'Courier New',Courier,monospace" font-size="9" fill="#A855F7" opacity=".4" letter-spacing="1">&lt; FULL STACK DEV // AI ARCHITECT // DIGITAL CRAFTSMAN &gt;</text>
 
-  <!-- Stat 1: Contributions -->
-  <rect x="450" y="140" width="185" height="58" fill="#090e16" stroke="#152218" stroke-width=".5" rx="4"/>
-  <text x="464" y="157" font-family="'Courier New',Courier,monospace" font-size="9" fill="#3a5c3a" letter-spacing="1.5">CONTRIBUTIONS</text>
-  <text x="464" y="186" font-family="'Courier New',Courier,monospace" font-size="26" fill="#b8ff57" font-weight="bold" filter="url(#g1)">500+</text>
+  <!-- ── Stats Grid ── -->
 
-  <!-- Stat 2: Repos -->
-  <rect x="647" y="140" width="185" height="58" fill="#090e16" stroke="#152218" stroke-width=".5" rx="4"/>
-  <text x="661" y="157" font-family="'Courier New',Courier,monospace" font-size="9" fill="#3a5c3a" letter-spacing="1.5">REPOSITORIES</text>
-  <text x="661" y="186" font-family="'Courier New',Courier,monospace" font-size="26" fill="#b8ff57" font-weight="bold" filter="url(#g1)">40+</text>
+  <!-- S1: Contributions -->
+  <rect x="468" y="126" width="200" height="56" fill="#050910" stroke="#1a1040" stroke-width=".5" rx="5"/>
+  <text x="484" y="144" font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#5a4e7a" letter-spacing="1.5">CONTRIBUTIONS</text>
+  <text x="484" y="172" font-family="'Courier New',Courier,monospace" font-size="26" fill="#2DD4BF" font-weight="bold" filter="url(#gs)">500+</text>
 
-  <!-- Stat 3: Stars -->
-  <rect x="450" y="208" width="185" height="58" fill="#090e16" stroke="#152218" stroke-width=".5" rx="4"/>
-  <text x="464" y="225" font-family="'Courier New',Courier,monospace" font-size="9" fill="#3a5c3a" letter-spacing="1.5">STARS EARNED</text>
-  <text x="464" y="254" font-family="'Courier New',Courier,monospace" font-size="26" fill="#b8ff57" font-weight="bold" filter="url(#g1)">100+</text>
+  <!-- S2: Repos -->
+  <rect x="680" y="126" width="200" height="56" fill="#050910" stroke="#1a1040" stroke-width=".5" rx="5"/>
+  <text x="696" y="144" font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#5a4e7a" letter-spacing="1.5">REPOSITORIES</text>
+  <text x="696" y="172" font-family="'Courier New',Courier,monospace" font-size="26" fill="#2DD4BF" font-weight="bold" filter="url(#gs)">40+</text>
 
-  <!-- Stat 4: Achievements -->
-  <rect x="647" y="208" width="185" height="58" fill="#090e16" stroke="#152218" stroke-width=".5" rx="4"/>
-  <text x="661" y="225" font-family="'Courier New',Courier,monospace" font-size="9" fill="#3a5c3a" letter-spacing="1.5">ACHIEVEMENTS</text>
-  <text x="661" y="254" font-family="'Courier New',Courier,monospace" font-size="26" fill="#b8ff57" font-weight="bold" filter="url(#g1)">15+</text>
+  <!-- S3: Stars -->
+  <rect x="468" y="194" width="200" height="56" fill="#050910" stroke="#1a1040" stroke-width=".5" rx="5"/>
+  <text x="484" y="212" font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#5a4e7a" letter-spacing="1.5">STARS EARNED</text>
+  <text x="484" y="240" font-family="'Courier New',Courier,monospace" font-size="26" fill="#2DD4BF" font-weight="bold" filter="url(#gs)">100+</text>
 
-  <!-- Footer tagline -->
-  <line x1="450" y1="280" x2="832" y2="280" stroke="#141e2c" stroke-width=".5" opacity=".3"/>
-  <text x="452" y="298" font-family="'Courier New',Courier,monospace" font-size="10" fill="#3a5c3a" opacity=".65">Full Stack Developer · AI Architect · Digital Craftsman</text>
+  <!-- S4: Achievements -->
+  <rect x="680" y="194" width="200" height="56" fill="#050910" stroke="#1a1040" stroke-width=".5" rx="5"/>
+  <text x="696" y="212" font-family="'Courier New',Courier,monospace" font-size="8.5" fill="#5a4e7a" letter-spacing="1.5">ACHIEVEMENTS</text>
+  <text x="696" y="240" font-family="'Courier New',Courier,monospace" font-size="26" fill="#2DD4BF" font-weight="bold" filter="url(#gs)">15+</text>
+
+  <!-- Footer line -->
+  <line x1="468" y1="264" x2="880" y2="264" stroke="#161B22" stroke-width=".5" opacity=".3"/>
+
+  <!-- Tagline -->
+  <text x="470" y="282" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#8B949E" opacity=".5" letter-spacing=".3">Full Stack Developer · AI Architect · Digital Craftsman</text>
+
 </svg>
