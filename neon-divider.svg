@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 8">
+  <defs>
+    <linearGradient id="ng" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#A855F7" stop-opacity=".65"/>
+      <stop offset="30%" stop-color="#7C3AED" stop-opacity=".75"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity=".85"/>
+      <stop offset="70%" stop-color="#2DD4BF" stop-opacity=".75"/>
+      <stop offset="88%" stop-color="#2DD4BF" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gw"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+  <rect x="30" y="2" width="900" height="1.8" fill="url(#ng)" opacity=".55" rx="1"/>
+  <rect x="30" y="2.2" width="900" height="2.5" fill="url(#ng)" opacity=".18" filter="url(#gw)" rx="1"/>
+</svg>
