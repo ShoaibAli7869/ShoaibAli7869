@@ -1,18 +1,12 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         ◈ CINEMATIC HEADER ◈                          -->
+<!--                      ◈ GIT-CITY HEADER ◈                             -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,10:0f0f0f,20:141414,30:1a0505,40:2A0A0A,50:3D0000,60:4A0000,70:5C0000,80:700000,90:7D0000,100:8B0000&height=280&section=header&animation=fadeIn"/>
+<img src="./git-city-header.svg" width="100%" alt="Shoaib Ali — Git City Header"/>
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=700&size=56&duration=4000&pause=2000&color=C9A96E&center=true&vCenter=true&repeat=true&width=700&height=75&lines=Shoaib+Ali" alt="Name" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=400&size=20&duration=3500&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=750&height=35&lines=%E2%97%88+Full+Stack+Architect+%E2%80%A2+AI+Engineer+%E2%80%A2+System+Designer+%E2%97%88" alt="Title" />
-
-<br/>
+<br/><br/>
 
 <!-- ═══════════ STATUS BADGES ═══════════ -->
 
@@ -28,7 +22,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3500&pause=1200&color=5C0000&center=true&vCenter=true&repeat=true&width=720&height=25&lines=%E2%96%B9+Architecting+systems+with+precision+%26+purpose;%E2%96%B9+Where+vision+meets+engineering+excellence;%E2%96%B9+Building+what+others+only+blueprint;%E2%96%B9+Elegance+in+code.+Authority+in+design." alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3500&pause=1200&color=5C0000&center=true&vCenter=true&repeat=true&width=720&height=25&lines=%E2%96%B9+Architecting+systems+with+precision+%26+purpose;%E2%96%B9+Where+vision+meets+engineering+excellence;%E2%96%B9+Elegance+in+code.+Authority+in+design." alt="Typing" />
 
 </div>
 
@@ -51,67 +45,26 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/ShoaibAli7869">
-    <img src="https://github-widgetbox.vercel.app/api/profile?username=ShoaibAli7869&data=followers,repositories,stars,commits&theme=darkmode" alt="Profile Widget" width="500"/>
-  </a>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--  ARCHITECT BLUEPRINT — Pure HTML table, no fenced code blocks.        -->
-<!--  Fenced code blocks (```) break inside <table>/<div> on GitHub        -->
-<!--  because the parser switches to HTML mode and ignores them.           -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
 <table>
 <tr>
-<td>
-
-<div align="center">
-
-**`⟨ ARCHITECT — BLUEPRINT ⟩`**
-
-</div>
-
-| | | |
-|---:|:---:|:---|
-| `identity` | **→** | **Shoaib Ali** |
-| `role` | **→** | Full Stack Architect & AI Engineer |
-| `languages` | **→** | TypeScript · JavaScript · Python · C++ · C# |
-| `focus` | **→** | AI-Powered Intelligent Systems |
-| `architecture` | **→** | Microservices · Event-Driven · Domain-Driven Design |
-| `mission` | **→** | Engineer systems that millions rely on — with elegance |
-| `philosophy` | **→** | *Precision in every line. Purpose in every system.* |
-| `contact` | **→** | shoaibaali1945@gmail.com |
-
-</td>
-</tr>
-</table>
-</div>
-
+<td align="center">
 <br/>
 
-<div align="center">
-<table>
-<tr>
-<td>
+<img src="https://img.shields.io/badge/ROLE-Full_Stack_Architect_&_AI_Engineer-0D1117?style=for-the-badge&labelColor=8B0000"/>
+<br/>
+<img src="https://img.shields.io/badge/LANGUAGES-TypeScript_·_JavaScript_·_Python_·_C++_·_C%23-0D1117?style=for-the-badge&labelColor=5C0000"/>
+<br/>
+<img src="https://img.shields.io/badge/FOCUS-AI_Powered_Intelligent_Systems-0D1117?style=for-the-badge&labelColor=3D0000"/>
+<br/>
+<img src="https://img.shields.io/badge/ARCHITECTURE-Microservices_·_Event_Driven_·_DDD-0D1117?style=for-the-badge&labelColor=8B0000"/>
+<br/>
+<img src="https://img.shields.io/badge/MISSION-Engineer_systems_that_millions_rely_on-0D1117?style=for-the-badge&labelColor=5C0000"/>
+<br/>
+<img src="https://img.shields.io/badge/PHILOSOPHY-Precision_in_every_line._Purpose_in_every_system.-0D1117?style=for-the-badge&labelColor=3D0000"/>
+<br/>
+<img src="https://img.shields.io/badge/📧_CONTACT-shoaibaali1945@gmail.com-0D1117?style=for-the-badge&labelColor=C9A96E"/>
 
-&nbsp; 🏛️ &nbsp; Full Stack Architect — engineering production-grade systems at scale
-
-&nbsp; 🧠 &nbsp; Currently building **AI-Powered Intelligent Systems**
-
-&nbsp; ⚡ &nbsp; Obsessed with **Clean Architecture & Scalable Design**
-
-&nbsp; 🔬 &nbsp; Specializing in **MERN Stack & Machine Learning Pipelines**
-
-&nbsp; 🎯 &nbsp; Mission: Build systems that millions rely on
-
-&nbsp; 💎 &nbsp; *"Ship with precision, iterate with purpose, never compromise craft"*
-
-&nbsp; 📧 &nbsp; Reach me at **shoaibaali1945@gmail.com**
-
+<br/><br/>
 </td>
 </tr>
 </table>
@@ -145,8 +98,6 @@
 <br/><br/>
 <img src="https://img.shields.io/badge/✦_FRONTEND-C9A96E?style=for-the-badge&labelColor=0D1117" alt="Frontend"/>
 <br/><br/>
-Commanding interfaces<br/>crafted with precision<br/>& fluid artistry
-<br/><br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,redux&theme=dark" height="36"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=tailwind,ts,sass&theme=dark" height="36"/>
@@ -159,8 +110,6 @@ Commanding interfaces<br/>crafted with precision<br/>& fluid artistry
 <br/><br/>
 <img src="https://img.shields.io/badge/✦_BACKEND-8B0000?style=for-the-badge&labelColor=0D1117" alt="Backend"/>
 <br/><br/>
-Fortified architectures<br/>engineered for scale<br/>& absolute resilience
-<br/><br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" height="36"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=postgres,firebase,prisma&theme=dark" height="36"/>
@@ -172,8 +121,6 @@ Fortified architectures<br/>engineered for scale<br/>& absolute resilience
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/✦_AI_/_ML-3D0000?style=for-the-badge&labelColor=0D1117" alt="AI/ML"/>
-<br/><br/>
-Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" height="36"/>
 <br/><br/>
@@ -203,7 +150,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 
 <br/>
 
-<!-- ═══════════ LANGUAGES ═══════════ -->
 <div align="center">
 <table>
 <tr>
@@ -228,7 +174,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 
 <br/>
 
-<!-- ═══════════ FRONTEND ═══════════ -->
 <div align="center">
 <table>
 <tr>
@@ -254,7 +199,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 
 <br/>
 
-<!-- ═══════════ BACKEND ═══════════ -->
 <div align="center">
 <table>
 <tr>
@@ -280,7 +224,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 
 <br/>
 
-<!-- ═══════════ AI / ML ═══════════ -->
 <div align="center">
 <table>
 <tr>
@@ -305,7 +248,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 
 <br/>
 
-<!-- ═══════════ DEVOPS ═══════════ -->
 <div align="center">
 <table>
 <tr>
@@ -369,45 +311,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                       ◈ PROFILE INSIGHTS ◈                            -->
-<!--  API-based — renders immediately, no GitHub Action needed.            -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20PROFILE%20INSIGHTS%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Profile Insights"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ShoaibAli7869&theme=github_dark" alt="Profile Details" width="80%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShoaibAli7869&theme=github_dark" alt="Repos per Language" height="180"/>
-  &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ShoaibAli7869&theme=github_dark" alt="Most Commit Language" height="180"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ShoaibAli7869&theme=github_dark" alt="Stats" height="180"/>
-  &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ShoaibAli7869&theme=github_dark&utcOffset=5" alt="Productive Time" height="180"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                     ◈ CONTRIBUTION TIMELINE ◈                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
@@ -424,7 +327,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
 </div>
 
 <br/>
@@ -446,7 +349,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
 </div>
 
 <br/>
@@ -454,11 +357,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                  ◈ 3D ISOMETRIC CONTRIBUTIONS ◈                       -->
 <!--                                                                       -->
-<!--  This is an ANIMATED SVG — requires a GitHub Action to generate.      -->
-<!--  To set it up:                                                        -->
-<!--                                                                       -->
-<!--  1. Go to your profile repo → Actions → New Workflow                  -->
-<!--  2. Create .github/workflows/3d-contrib.yml with this content:        -->
+<!--  Requires a GitHub Action. Create .github/workflows/3d-contrib.yml:   -->
 <!--                                                                       -->
 <!--     name: 3D Contribution                                             -->
 <!--     on:                                                               -->
@@ -477,8 +376,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <!--             with:                                                     -->
 <!--               commit_message: "Generated 3D Contribution"             -->
 <!--                                                                       -->
-<!--  3. Run the workflow manually once, then it runs daily.               -->
-<!--  4. The animated SVG will appear at the URL below.                    -->
+<!--  Run the workflow manually once, then it auto-runs daily.             -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -494,7 +392,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
 </div>
 
 <br/>
@@ -502,9 +400,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                      ◈ CONTRIBUTION SNAKE ◈                           -->
 <!--                                                                       -->
-<!--  Also requires a GitHub Action. To set it up:                         -->
-<!--                                                                       -->
-<!--  1. Create .github/workflows/snake.yml with this content:             -->
+<!--  Requires a GitHub Action. Create .github/workflows/snake.yml:        -->
 <!--                                                                       -->
 <!--     name: Generate Snake                                              -->
 <!--     on:                                                               -->
@@ -527,8 +423,6 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <!--               build_dir: dist                                         -->
 <!--             env:                                                      -->
 <!--               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}               -->
-<!--                                                                       -->
-<!--  2. Run the workflow manually once, then it runs daily.               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -548,7 +442,7 @@ Intelligent systems<br/>powered by deep learning<br/>& machine intelligence
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
 </div>
 
 <br/>
