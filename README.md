@@ -348,48 +348,9 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
-</div>
 
-<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                  ◈ 3D ISOMETRIC CONTRIBUTIONS ◈                       -->
-<!--                                                                       -->
-<!--  Requires a GitHub Action. Create .github/workflows/3d-contrib.yml:   -->
-<!--                                                                       -->
-<!--     name: 3D Contribution                                             -->
-<!--     on:                                                               -->
-<!--       schedule:                                                       -->
-<!--         - cron: "0 1 * * *"                                           -->
-<!--       workflow_dispatch:                                               -->
-<!--     jobs:                                                             -->
-<!--       build:                                                          -->
-<!--         runs-on: ubuntu-latest                                        -->
-<!--         steps:                                                        -->
-<!--           - uses: yoshi389111/github-profile-3d-contrib@0.7.1         -->
-<!--             env:                                                      -->
-<!--               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}               -->
-<!--               USERNAME: ShoaibAli7869                                 -->
-<!--           - uses: stefanzweifel/git-auto-commit-action@v4             -->
-<!--             with:                                                     -->
-<!--               commit_message: "Generated 3D Contribution"             -->
-<!--                                                                       -->
-<!--  Run the workflow manually once, then it auto-runs daily.             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%203D%20CONTRIBUTIONS%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="3D Contributions"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Chart" width="98%"/>
-</div>
-
-<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
