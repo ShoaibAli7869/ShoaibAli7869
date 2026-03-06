@@ -5,32 +5,32 @@
     </pattern>
     <pattern id="grid" patternUnits="userSpaceOnUse" width="40" height="40">
       <rect width="40" height="40" fill="none"/>
-      <line x1="0" y1="40" x2="40" y2="40" stroke="#A855F7" stroke-width=".1" opacity=".08"/>
-      <line x1="40" y1="0" x2="40" y2="40" stroke="#A855F7" stroke-width=".1" opacity=".08"/>
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#8B0000" stroke-width=".1" opacity=".08"/>
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#8B0000" stroke-width=".1" opacity=".08"/>
     </pattern>
     <pattern id="w1" patternUnits="userSpaceOnUse" width="14" height="10">
-      <rect x="1" y="1" width="5" height="3" fill="#A855F7" opacity=".9"/>
-      <rect x="8" y="1" width="5" height="3" fill="#2DD4BF" opacity=".15"/>
-      <rect x="1" y="6" width="5" height="3" fill="#6366F1" opacity=".4"/>
-      <rect x="8" y="6" width="5" height="3" fill="#A855F7" opacity=".7"/>
+      <rect x="1" y="1" width="5" height="3" fill="#8B0000" opacity=".9"/>
+      <rect x="8" y="1" width="5" height="3" fill="#C9A96E" opacity=".15"/>
+      <rect x="1" y="6" width="5" height="3" fill="#5C0000" opacity=".4"/>
+      <rect x="8" y="6" width="5" height="3" fill="#8B0000" opacity=".7"/>
     </pattern>
     <pattern id="w2" patternUnits="userSpaceOnUse" width="14" height="10">
-      <rect x="1" y="1" width="5" height="3" fill="#2DD4BF" opacity=".25"/>
-      <rect x="8" y="1" width="5" height="3" fill="#A855F7" opacity=".85"/>
-      <rect x="1" y="6" width="5" height="3" fill="#A855F7" opacity=".55"/>
-      <rect x="8" y="6" width="5" height="3" fill="#6366F1" opacity=".35"/>
+      <rect x="1" y="1" width="5" height="3" fill="#C9A96E" opacity=".25"/>
+      <rect x="8" y="1" width="5" height="3" fill="#8B0000" opacity=".85"/>
+      <rect x="1" y="6" width="5" height="3" fill="#8B0000" opacity=".55"/>
+      <rect x="8" y="6" width="5" height="3" fill="#5C0000" opacity=".35"/>
     </pattern>
     <pattern id="w3" patternUnits="userSpaceOnUse" width="14" height="10">
-      <rect x="1" y="1" width="5" height="3" fill="#6366F1" opacity=".6"/>
-      <rect x="8" y="1" width="5" height="3" fill="#2DD4BF" opacity=".8"/>
-      <rect x="1" y="6" width="5" height="3" fill="#A855F7" opacity=".12"/>
-      <rect x="8" y="6" width="5" height="3" fill="#A855F7" opacity=".65"/>
+      <rect x="1" y="1" width="5" height="3" fill="#5C0000" opacity=".6"/>
+      <rect x="8" y="1" width="5" height="3" fill="#C9A96E" opacity=".8"/>
+      <rect x="1" y="6" width="5" height="3" fill="#8B0000" opacity=".12"/>
+      <rect x="8" y="6" width="5" height="3" fill="#8B0000" opacity=".65"/>
     </pattern>
     <pattern id="w4" patternUnits="userSpaceOnUse" width="14" height="10">
-      <rect x="1" y="1" width="5" height="3" fill="#A855F7" opacity=".45"/>
-      <rect x="8" y="1" width="5" height="3" fill="#6366F1" opacity=".7"/>
-      <rect x="1" y="6" width="5" height="3" fill="#2DD4BF" opacity=".3"/>
-      <rect x="8" y="6" width="5" height="3" fill="#A855F7" opacity=".8"/>
+      <rect x="1" y="1" width="5" height="3" fill="#8B0000" opacity=".45"/>
+      <rect x="8" y="1" width="5" height="3" fill="#5C0000" opacity=".7"/>
+      <rect x="1" y="6" width="5" height="3" fill="#C9A96E" opacity=".3"/>
+      <rect x="8" y="6" width="5" height="3" fill="#8B0000" opacity=".8"/>
     </pattern>
     <filter id="g1"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <filter id="g2"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -42,19 +42,19 @@
       <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="glow1" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity=".06"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#8B0000" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="glow2" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity=".04"/>
-      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity=".04"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="groundg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#A855F7" stop-opacity=".15"/>
-      <stop offset="50%" stop-color="#2DD4BF" stop-opacity=".1"/>
-      <stop offset="70%" stop-color="#A855F7" stop-opacity=".15"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#8B0000" stop-opacity=".15"/>
+      <stop offset="50%" stop-color="#C9A96E" stop-opacity=".1"/>
+      <stop offset="70%" stop-color="#8B0000" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#8B0000" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="statbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0c1020"/>
@@ -65,9 +65,9 @@
       <stop offset="100%" stop-color="#080c14"/>
     </linearGradient>
     <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A855F7"/>
-      <stop offset="50%" stop-color="#C084FC"/>
-      <stop offset="100%" stop-color="#A855F7"/>
+      <stop offset="0%" stop-color="#C9A96E"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#C9A96E"/>
     </linearGradient>
     <clipPath id="roundclip">
       <rect width="1000" height="360" rx="12"/>
@@ -76,223 +76,179 @@
 
   <g clip-path="url(#roundclip)">
 
-  <!-- ═══ BACKGROUND ═══ -->
   <rect width="1000" height="360" fill="url(#sky)"/>
   <rect width="1000" height="360" fill="url(#grid)"/>
   <rect width="1000" height="360" fill="url(#scan)"/>
 
-  <!-- Atmospheric city glow -->
-  <ellipse cx="200" cy="340" rx="350" ry="80" fill="#A855F7" opacity=".015" filter="url(#g4)"/>
-  <ellipse cx="250" cy="320" rx="200" ry="50" fill="#2DD4BF" opacity=".01" filter="url(#g4)"/>
+  <ellipse cx="200" cy="340" rx="350" ry="80" fill="#8B0000" opacity=".015" filter="url(#g4)"/>
+  <ellipse cx="250" cy="320" rx="200" ry="50" fill="#C9A96E" opacity=".01" filter="url(#g4)"/>
 
-  <!-- Outer frame -->
-  <rect x="1" y="1" width="998" height="358" fill="none" stroke="#A855F7" stroke-width=".15" rx="12" opacity=".4"/>
+  <rect x="1" y="1" width="998" height="358" fill="none" stroke="#8B0000" stroke-width=".15" rx="12" opacity=".4"/>
 
-  <!-- Corner accents -->
-  <path d="M16,4 L4,4 L4,28" stroke="#A855F7" stroke-width="1.2" fill="none" opacity=".35"/>
-  <path d="M984,4 L996,4 L996,28" stroke="#2DD4BF" stroke-width="1.2" fill="none" opacity=".35"/>
-  <path d="M16,356 L4,356 L4,332" stroke="#2DD4BF" stroke-width="1.2" fill="none" opacity=".35"/>
-  <path d="M984,356 L996,356 L996,332" stroke="#A855F7" stroke-width="1.2" fill="none" opacity=".35"/>
+  <path d="M16,4 L4,4 L4,28" stroke="#8B0000" stroke-width="1.2" fill="none" opacity=".35"/>
+  <path d="M984,4 L996,4 L996,28" stroke="#C9A96E" stroke-width="1.2" fill="none" opacity=".35"/>
+  <path d="M16,356 L4,356 L4,332" stroke="#C9A96E" stroke-width="1.2" fill="none" opacity=".35"/>
+  <path d="M984,356 L996,356 L996,332" stroke="#8B0000" stroke-width="1.2" fill="none" opacity=".35"/>
 
-  <!-- Inner corner dots -->
-  <circle cx="4" cy="4" r="1.5" fill="#A855F7" opacity=".3"/>
-  <circle cx="996" cy="4" r="1.5" fill="#2DD4BF" opacity=".3"/>
-  <circle cx="4" cy="356" r="1.5" fill="#2DD4BF" opacity=".3"/>
-  <circle cx="996" cy="356" r="1.5" fill="#A855F7" opacity=".3"/>
+  <circle cx="4" cy="4" r="1.5" fill="#8B0000" opacity=".3"/>
+  <circle cx="996" cy="4" r="1.5" fill="#C9A96E" opacity=".3"/>
+  <circle cx="4" cy="356" r="1.5" fill="#C9A96E" opacity=".3"/>
+  <circle cx="996" cy="356" r="1.5" fill="#8B0000" opacity=".3"/>
 
-  <!-- ═══ STARS ═══ -->
-  <circle cx="45" cy="30" r="1" fill="#A855F7" opacity=".2"/>
-  <circle cx="108" cy="18" r=".7" fill="#2DD4BF" opacity=".25"/>
-  <circle cx="192" cy="42" r="1.2" fill="#6366F1" opacity=".12"/>
-  <circle cx="270" cy="22" r=".6" fill="#A855F7" opacity=".35"/>
-  <circle cx="340" cy="48" r=".8" fill="#2DD4BF" opacity=".18"/>
-  <circle cx="82" cy="52" r=".5" fill="#A855F7" opacity=".4"/>
-  <circle cx="305" cy="12" r=".9" fill="#6366F1" opacity=".15"/>
-  <circle cx="165" cy="25" r="1.1" fill="#2DD4BF" opacity=".2"/>
-  <circle cx="388" cy="30" r=".6" fill="#A855F7" opacity=".12"/>
-  <circle cx="420" cy="55" r=".8" fill="#6366F1" opacity=".1"/>
-  <circle cx="140" cy="60" r=".4" fill="#2DD4BF" opacity=".3"/>
-  <circle cx="365" cy="15" r=".7" fill="#A855F7" opacity=".18"/>
+  <circle cx="45" cy="30" r="1" fill="#8B0000" opacity=".2"/>
+  <circle cx="108" cy="18" r=".7" fill="#C9A96E" opacity=".25"/>
+  <circle cx="192" cy="42" r="1.2" fill="#5C0000" opacity=".12"/>
+  <circle cx="270" cy="22" r=".6" fill="#8B0000" opacity=".35"/>
+  <circle cx="340" cy="48" r=".8" fill="#C9A96E" opacity=".18"/>
+  <circle cx="82" cy="52" r=".5" fill="#8B0000" opacity=".4"/>
+  <circle cx="305" cy="12" r=".9" fill="#5C0000" opacity=".15"/>
+  <circle cx="165" cy="25" r="1.1" fill="#C9A96E" opacity=".2"/>
+  <circle cx="388" cy="30" r=".6" fill="#8B0000" opacity=".12"/>
+  <circle cx="420" cy="55" r=".8" fill="#5C0000" opacity=".1"/>
+  <circle cx="140" cy="60" r=".4" fill="#C9A96E" opacity=".3"/>
+  <circle cx="365" cy="15" r=".7" fill="#8B0000" opacity=".18"/>
 
-  <!-- Twinkling stars -->
-  <circle cx="72" cy="38" r=".8" fill="#A855F7" opacity=".15">
+  <circle cx="72" cy="38" r=".8" fill="#8B0000" opacity=".15">
     <animate attributeName="opacity" values=".15;.4;.15" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="230" cy="15" r=".6" fill="#2DD4BF" opacity=".2">
+  <circle cx="230" cy="15" r=".6" fill="#C9A96E" opacity=".2">
     <animate attributeName="opacity" values=".2;.5;.2" dur="5.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="350" cy="35" r=".5" fill="#6366F1" opacity=".18">
+  <circle cx="350" cy="35" r=".5" fill="#5C0000" opacity=".18">
     <animate attributeName="opacity" values=".18;.45;.18" dur="3.8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ═══ CITY SKYLINE ═══ -->
-
-  <!-- Ground -->
   <rect x="15" y="318" width="420" height="2" fill="url(#groundg)"/>
 
-  <!-- Building 1 -->
   <rect x="20" y="228" width="24" height="90" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="22" y="230" width="20" height="86" fill="url(#w1)"/>
   <rect x="20" y="228" width="24" height="90" fill="url(#glow1)"/>
 
-  <!-- Building 2 - Tall -->
   <rect x="49" y="128" width="22" height="190" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="51" y="130" width="18" height="186" fill="url(#w2)"/>
   <rect x="49" y="128" width="22" height="190" fill="url(#glow1)"/>
 
-  <!-- Building 3 - Short -->
   <rect x="76" y="272" width="32" height="46" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="78" y="274" width="28" height="42" fill="url(#w3)"/>
 
-  <!-- Building 4 - Very tall + antenna -->
   <rect x="113" y="68" width="24" height="250" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="115" y="70" width="20" height="246" fill="url(#w4)"/>
   <rect x="113" y="68" width="24" height="250" fill="url(#glow1)"/>
-  <line x1="125" y1="68" x2="125" y2="42" stroke="#A855F7" stroke-width="1" opacity=".45"/>
-  <circle cx="125" cy="39" r="2.5" fill="#A855F7" opacity=".7" filter="url(#g1)">
+  <line x1="125" y1="68" x2="125" y2="42" stroke="#8B0000" stroke-width="1" opacity=".45"/>
+  <circle cx="125" cy="39" r="2.5" fill="#8B0000" opacity=".7" filter="url(#g1)">
     <animate attributeName="opacity" values=".7;.12;.7" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="125" cy="39" r="5" fill="#A855F7" opacity=".08" filter="url(#g3)">
+  <circle cx="125" cy="39" r="5" fill="#8B0000" opacity=".08" filter="url(#g3)">
     <animate attributeName="opacity" values=".08;.02;.08" dur="1.8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 5 -->
   <rect x="142" y="180" width="28" height="138" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="144" y="182" width="24" height="134" fill="url(#w1)"/>
   <rect x="142" y="180" width="28" height="138" fill="url(#glow2)"/>
 
-  <!-- Building 6 -->
   <rect x="175" y="252" width="22" height="66" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="177" y="254" width="18" height="62" fill="url(#w2)"/>
 
-  <!-- Building 7 - TALLEST + antenna (hero building) -->
-  <rect x="202" y="42" width="30" height="276" fill="#070b14" stroke="#A855F7" stroke-width=".2" opacity=".8"/>
+  <rect x="202" y="42" width="30" height="276" fill="#070b14" stroke="#8B0000" stroke-width=".2" opacity=".8"/>
   <rect x="204" y="44" width="26" height="272" fill="url(#w3)"/>
   <rect x="202" y="42" width="30" height="276" fill="url(#glow1)"/>
-  <line x1="217" y1="42" x2="217" y2="12" stroke="#2DD4BF" stroke-width="1.2" opacity=".5"/>
-  <circle cx="217" cy="9" r="3" fill="#2DD4BF" opacity=".8" filter="url(#g2)">
+  <line x1="217" y1="42" x2="217" y2="12" stroke="#C9A96E" stroke-width="1.2" opacity=".5"/>
+  <circle cx="217" cy="9" r="3" fill="#C9A96E" opacity=".8" filter="url(#g2)">
     <animate attributeName="opacity" values=".8;.1;.8" dur="1.4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="217" cy="9" r="8" fill="#2DD4BF" opacity=".06" filter="url(#g3)">
+  <circle cx="217" cy="9" r="8" fill="#C9A96E" opacity=".06" filter="url(#g3)">
     <animate attributeName="opacity" values=".06;.01;.06" dur="1.4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 8 -->
   <rect x="237" y="148" width="24" height="170" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="239" y="150" width="20" height="166" fill="url(#w4)"/>
   <rect x="237" y="148" width="24" height="170" fill="url(#glow1)"/>
 
-  <!-- Building 9 - Short wide -->
   <rect x="266" y="280" width="36" height="38" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="268" y="282" width="32" height="34" fill="url(#w1)"/>
 
-  <!-- Building 10 - Tall + antenna -->
   <rect x="307" y="92" width="24" height="226" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="309" y="94" width="20" height="222" fill="url(#w2)"/>
   <rect x="307" y="92" width="24" height="226" fill="url(#glow1)"/>
-  <line x1="319" y1="92" x2="319" y2="72" stroke="#6366F1" stroke-width="1" opacity=".4"/>
-  <circle cx="319" cy="69" r="2" fill="#6366F1" opacity=".55" filter="url(#g1)">
+  <line x1="319" y1="92" x2="319" y2="72" stroke="#5C0000" stroke-width="1" opacity=".4"/>
+  <circle cx="319" cy="69" r="2" fill="#5C0000" opacity=".55" filter="url(#g1)">
     <animate attributeName="opacity" values=".55;.08;.55" dur="2.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Building 11 -->
   <rect x="336" y="195" width="26" height="123" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="338" y="197" width="22" height="119" fill="url(#w3)"/>
   <rect x="336" y="195" width="26" height="123" fill="url(#glow2)"/>
 
-  <!-- Building 12 -->
   <rect x="367" y="158" width="22" height="160" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="369" y="160" width="18" height="156" fill="url(#w4)"/>
 
-  <!-- Building 13 - Short -->
   <rect x="394" y="265" width="28" height="53" fill="#070b14" stroke="#12182a" stroke-width=".3"/>
   <rect x="396" y="267" width="24" height="49" fill="url(#w1)"/>
 
-  <!-- ═══ DIVIDER ═══ -->
-  <line x1="445" y1="15" x2="445" y2="345" stroke="#A855F7" stroke-width=".3" stroke-dasharray="1,10" opacity=".2"/>
+  <line x1="445" y1="15" x2="445" y2="345" stroke="#8B0000" stroke-width=".3" stroke-dasharray="1,10" opacity=".2"/>
 
-  <!-- ═══ PROFILE CARD ═══ -->
+  <rect x="460" y="15" width="528" height="330" fill="url(#cardbg)" rx="8" stroke="#8B0000" stroke-width=".12" opacity=".6"/>
 
-  <!-- Card background -->
-  <rect x="460" y="15" width="528" height="330" fill="url(#cardbg)" rx="8" stroke="#A855F7" stroke-width=".12" opacity=".6"/>
+  <line x1="480" y1="20" x2="968" y2="20" stroke="#8B0000" stroke-width=".2" opacity=".15"/>
 
-  <!-- Decorative top line -->
-  <line x1="480" y1="20" x2="968" y2="20" stroke="#A855F7" stroke-width=".2" opacity=".15"/>
-
-  <!-- Terminal prompt -->
-  <text x="482" y="42" font-family="'Courier New',Courier,monospace" font-size="9" fill="#6366F1" opacity=".4" letter-spacing="1">root@gitcity:~$</text>
-  <rect x="590" y="33" width="7" height="12" fill="#2DD4BF" opacity=".4" rx="1">
+  <text x="482" y="42" font-family="'Courier New',Courier,monospace" font-size="9" fill="#5C0000" opacity=".4" letter-spacing="1">architect@citadel:~$</text>
+  <rect x="598" y="33" width="7" height="12" fill="#C9A96E" opacity=".4" rx="1">
     <animate attributeName="opacity" values=".4;0;.4" dur="1s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Name -->
   <text x="482" y="80" font-family="'Courier New',Courier,monospace" font-size="40" fill="url(#nameg)" font-weight="bold" filter="url(#g2)" letter-spacing="5">SHOAIB ALI</text>
 
-  <!-- Handle with prefix -->
-  <text x="484" y="100" font-family="'Courier New',Courier,monospace" font-size="12" fill="#6366F1" opacity=".6" letter-spacing="1">gh://ShoaibAli7869</text>
+  <text x="484" y="100" font-family="'Courier New',Courier,monospace" font-size="12" fill="#5C0000" opacity=".6" letter-spacing="1">gh://ShoaibAli7869</text>
 
-  <!-- Role tag line -->
-  <rect x="482" y="112" width="490" height="26" fill="#080c18" stroke="#A855F7" stroke-width=".25" rx="4"/>
-  <text x="496" y="129" font-family="'Courier New',Courier,monospace" font-size="10" fill="#2DD4BF" opacity=".75" letter-spacing="2.5">FULL STACK DEVELOPER · AI ARCHITECT · DIGITAL CRAFTSMAN</text>
+  <rect x="482" y="112" width="490" height="26" fill="#080c18" stroke="#8B0000" stroke-width=".25" rx="4"/>
+  <text x="496" y="129" font-family="'Courier New',Courier,monospace" font-size="10" fill="#C9A96E" opacity=".75" letter-spacing="2.5">FULL STACK ARCHITECT · AI ENGINEER · SYSTEM DESIGNER</text>
 
-  <!-- ── STATS 2x2 ── -->
-
-  <!-- Stat 1: Contributions -->
-  <rect x="482" y="155" width="235" height="68" fill="url(#statbg)" stroke="#A855F7" stroke-width=".25" rx="6"/>
-  <rect x="482" y="155" width="3" height="68" fill="#A855F7" rx="1.5" opacity=".5"/>
-  <text x="498" y="174" font-family="'Courier New',Courier,monospace" font-size="8" fill="#6366F1" letter-spacing="2.5" opacity=".7">CONTRIBUTIONS</text>
-  <text x="498" y="210" font-family="'Courier New',Courier,monospace" font-size="32" fill="#A855F7" font-weight="bold" filter="url(#g1)">500+</text>
-  <!-- Mini spark graph -->
-  <polyline points="655,200 660,195 665,198 670,188 675,192 680,182 685,186 690,178 695,184 700,176" fill="none" stroke="#A855F7" stroke-width=".8" opacity=".35"/>
-  <circle cx="700" cy="176" r="2" fill="#2DD4BF" opacity=".5">
+  <rect x="482" y="155" width="235" height="68" fill="url(#statbg)" stroke="#8B0000" stroke-width=".25" rx="6"/>
+  <rect x="482" y="155" width="3" height="68" fill="#8B0000" rx="1.5" opacity=".5"/>
+  <text x="498" y="174" font-family="'Courier New',Courier,monospace" font-size="8" fill="#5C0000" letter-spacing="2.5" opacity=".7">CONTRIBUTIONS</text>
+  <text x="498" y="210" font-family="'Courier New',Courier,monospace" font-size="32" fill="#8B0000" font-weight="bold" filter="url(#g1)">500+</text>
+  <polyline points="655,200 660,195 665,198 670,188 675,192 680,182 685,186 690,178 695,184 700,176" fill="none" stroke="#8B0000" stroke-width=".8" opacity=".35"/>
+  <circle cx="700" cy="176" r="2" fill="#C9A96E" opacity=".5">
     <animate attributeName="opacity" values=".5;.15;.5" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Stat 2: Repositories -->
-  <rect x="729" y="155" width="235" height="68" fill="url(#statbg)" stroke="#2DD4BF" stroke-width=".25" rx="6"/>
-  <rect x="729" y="155" width="3" height="68" fill="#2DD4BF" rx="1.5" opacity=".5"/>
-  <text x="745" y="174" font-family="'Courier New',Courier,monospace" font-size="8" fill="#6366F1" letter-spacing="2.5" opacity=".7">REPOSITORIES</text>
-  <text x="745" y="210" font-family="'Courier New',Courier,monospace" font-size="32" fill="#2DD4BF" font-weight="bold" filter="url(#g1)">40+</text>
-  <!-- Repo grid dots -->
+  <rect x="729" y="155" width="235" height="68" fill="url(#statbg)" stroke="#C9A96E" stroke-width=".25" rx="6"/>
+  <rect x="729" y="155" width="3" height="68" fill="#C9A96E" rx="1.5" opacity=".5"/>
+  <text x="745" y="174" font-family="'Courier New',Courier,monospace" font-size="8" fill="#5C0000" letter-spacing="2.5" opacity=".7">REPOSITORIES</text>
+  <text x="745" y="210" font-family="'Courier New',Courier,monospace" font-size="32" fill="#C9A96E" font-weight="bold" filter="url(#g1)">40+</text>
   <g opacity=".3">
-    <circle cx="910" cy="185" r="2" fill="#2DD4BF"/><circle cx="920" cy="185" r="2" fill="#2DD4BF" opacity=".7"/>
-    <circle cx="930" cy="185" r="2" fill="#2DD4BF" opacity=".4"/><circle cx="940" cy="185" r="2" fill="#2DD4BF" opacity=".2"/>
-    <circle cx="910" cy="195" r="2" fill="#2DD4BF" opacity=".5"/><circle cx="920" cy="195" r="2" fill="#2DD4BF" opacity=".8"/>
-    <circle cx="930" cy="195" r="2" fill="#2DD4BF" opacity=".3"/><circle cx="940" cy="195" r="2" fill="#2DD4BF" opacity=".6"/>
-    <circle cx="910" cy="205" r="2" fill="#2DD4BF" opacity=".7"/><circle cx="920" cy="205" r="2" fill="#2DD4BF" opacity=".2"/>
-    <circle cx="930" cy="205" r="2" fill="#2DD4BF" opacity=".9"/><circle cx="940" cy="205" r="2" fill="#2DD4BF" opacity=".4"/>
+    <circle cx="910" cy="185" r="2" fill="#C9A96E"/><circle cx="920" cy="185" r="2" fill="#C9A96E" opacity=".7"/>
+    <circle cx="930" cy="185" r="2" fill="#C9A96E" opacity=".4"/><circle cx="940" cy="185" r="2" fill="#C9A96E" opacity=".2"/>
+    <circle cx="910" cy="195" r="2" fill="#C9A96E" opacity=".5"/><circle cx="920" cy="195" r="2" fill="#C9A96E" opacity=".8"/>
+    <circle cx="930" cy="195" r="2" fill="#C9A96E" opacity=".3"/><circle cx="940" cy="195" r="2" fill="#C9A96E" opacity=".6"/>
+    <circle cx="910" cy="205" r="2" fill="#C9A96E" opacity=".7"/><circle cx="920" cy="205" r="2" fill="#C9A96E" opacity=".2"/>
+    <circle cx="930" cy="205" r="2" fill="#C9A96E" opacity=".9"/><circle cx="940" cy="205" r="2" fill="#C9A96E" opacity=".4"/>
   </g>
 
-  <!-- Stat 3: Stars -->
-  <rect x="482" y="235" width="235" height="68" fill="url(#statbg)" stroke="#6366F1" stroke-width=".25" rx="6"/>
-  <rect x="482" y="235" width="3" height="68" fill="#6366F1" rx="1.5" opacity=".5"/>
-  <text x="498" y="254" font-family="'Courier New',Courier,monospace" font-size="8" fill="#6366F1" letter-spacing="2.5" opacity=".7">STARS EARNED</text>
-  <text x="498" y="290" font-family="'Courier New',Courier,monospace" font-size="32" fill="#6366F1" font-weight="bold" filter="url(#g1)">100+</text>
-  <!-- Star icons -->
-  <polygon points="690,262 693,270 702,270 695,275 697,284 690,279 683,284 685,275 678,270 687,270" fill="#6366F1" opacity=".12" filter="url(#g1)"/>
-  <polygon points="708,256 710,261 715,261 711,264 712,269 708,266 704,269 705,264 701,261 706,261" fill="#6366F1" opacity=".08"/>
+  <rect x="482" y="235" width="235" height="68" fill="url(#statbg)" stroke="#C9A96E" stroke-width=".25" rx="6"/>
+  <rect x="482" y="235" width="3" height="68" fill="#C9A96E" rx="1.5" opacity=".5"/>
+  <text x="498" y="254" font-family="'Courier New',Courier,monospace" font-size="8" fill="#5C0000" letter-spacing="2.5" opacity=".7">STARS EARNED</text>
+  <text x="498" y="290" font-family="'Courier New',Courier,monospace" font-size="32" fill="#C9A96E" font-weight="bold" filter="url(#g1)">100+</text>
+  <polygon points="690,262 693,270 702,270 695,275 697,284 690,279 683,284 685,275 678,270 687,270" fill="#C9A96E" opacity=".12" filter="url(#g1)"/>
+  <polygon points="708,256 710,261 715,261 711,264 712,269 708,266 704,269 705,264 701,261 706,261" fill="#C9A96E" opacity=".08"/>
 
-  <!-- Stat 4: Achievements -->
-  <rect x="729" y="235" width="235" height="68" fill="url(#statbg)" stroke="#A855F7" stroke-width=".25" rx="6"/>
-  <rect x="729" y="235" width="3" height="68" fill="#A855F7" rx="1.5" opacity=".5"/>
-  <text x="745" y="254" font-family="'Courier New',Courier,monospace" font-size="8" fill="#6366F1" letter-spacing="2.5" opacity=".7">ACHIEVEMENTS</text>
-  <text x="745" y="290" font-family="'Courier New',Courier,monospace" font-size="32" fill="#A855F7" font-weight="bold" filter="url(#g1)">15+</text>
-  <!-- Trophy -->
+  <rect x="729" y="235" width="235" height="68" fill="url(#statbg)" stroke="#8B0000" stroke-width=".25" rx="6"/>
+  <rect x="729" y="235" width="3" height="68" fill="#8B0000" rx="1.5" opacity=".5"/>
+  <text x="745" y="254" font-family="'Courier New',Courier,monospace" font-size="8" fill="#5C0000" letter-spacing="2.5" opacity=".7">ACHIEVEMENTS</text>
+  <text x="745" y="290" font-family="'Courier New',Courier,monospace" font-size="32" fill="#8B0000" font-weight="bold" filter="url(#g1)">15+</text>
   <g opacity=".15" transform="translate(920,255)">
-    <path d="M10,0 L30,0 L28,12 Q20,20 12,12 Z" fill="#A855F7"/>
-    <rect x="16" y="20" width="8" height="6" fill="#A855F7"/>
-    <rect x="12" y="26" width="16" height="3" fill="#A855F7" rx="1"/>
+    <path d="M10,0 L30,0 L28,12 Q20,20 12,12 Z" fill="#C9A96E"/>
+    <rect x="16" y="20" width="8" height="6" fill="#C9A96E"/>
+    <rect x="12" y="26" width="16" height="3" fill="#C9A96E" rx="1"/>
   </g>
 
-  <!-- ── Footer ── -->
-  <line x1="482" y1="318" x2="964" y2="318" stroke="#A855F7" stroke-width=".15" opacity=".25"/>
-  <text x="484" y="338" font-family="'Courier New',Courier,monospace" font-size="9.5" fill="#6366F1" opacity=".45" letter-spacing="1">Building the future, one commit at a time · Pakistan → Global</text>
+  <line x1="482" y1="318" x2="964" y2="318" stroke="#8B0000" stroke-width=".15" opacity=".25"/>
+  <text x="484" y="338" font-family="'Courier New',Courier,monospace" font-size="9.5" fill="#5C0000" opacity=".45" letter-spacing="1">Precision in every line · Purpose in every system · Pakistan → Global</text>
 
-  <!-- Status indicator -->
-  <circle cx="948" cy="335" r="3" fill="#2DD4BF" opacity=".5">
+  <circle cx="948" cy="335" r="3" fill="#C9A96E" opacity=".5">
     <animate attributeName="opacity" values=".5;.15;.5" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text x="916" y="338" font-family="'Courier New',Courier,monospace" font-size="7" fill="#2DD4BF" opacity=".4">LIVE</text>
+  <text x="922" y="338" font-family="'Courier New',Courier,monospace" font-size="7" fill="#C9A96E" opacity=".4">LIVE</text>
 
   </g>
 </svg>
