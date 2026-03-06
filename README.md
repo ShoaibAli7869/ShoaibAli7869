@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                      ◈ GIT-CITY HEADER ◈                             -->
+<!--                    ◈ SOVEREIGN SEAL HEADER ◈                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="./git-city-header.svg" width="100%" alt="Shoaib Ali — Git City Header"/>
+<img src="./sovereign-header.svg" width="100%" alt="Shoaib Ali — Sovereign Seal"/>
 
 <br/><br/>
 
@@ -22,7 +22,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3500&pause=1200&color=5C0000&center=true&vCenter=true&repeat=true&width=720&height=25&lines=%E2%96%B9+Architecting+systems+with+precision+%26+purpose;%E2%96%B9+Where+vision+meets+engineering+excellence;%E2%96%B9+Elegance+in+code.+Authority+in+design." alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3500&pause=1200&color=5C0000&center=true&vCenter=true&repeat=true&width=720&height=25&lines=%E2%96%B9+Architecting+systems+with+precision+%26+purpose;%E2%96%B9+Where+vision+meets+engineering+excellence;%E2%96%B9+Elegance+in+code.+Authority+in+design." alt="Typing"/>
 
 </div>
 
@@ -47,23 +47,40 @@
 <div align="center">
 <table>
 <tr>
-<td align="center">
-<br/>
 
+<td width="50%" align="center">
+<br/>
+<img src="https://img.shields.io/badge/%20%E2%97%88%20IDENTITY%20%E2%97%88%20-C9A96E?style=for-the-badge&labelColor=0D1117"/>
+<br/><br/>
 <img src="https://img.shields.io/badge/ROLE-Full_Stack_Architect_&_AI_Engineer-0D1117?style=for-the-badge&labelColor=8B0000"/>
 <br/>
-<img src="https://img.shields.io/badge/LANGUAGES-TypeScript_·_JavaScript_·_Python_·_C++_·_C%23-0D1117?style=for-the-badge&labelColor=5C0000"/>
+<img src="https://img.shields.io/badge/STACK-TypeScript_·_Python_·_C++_·_C%23-0D1117?style=for-the-badge&labelColor=5C0000"/>
 <br/>
-<img src="https://img.shields.io/badge/FOCUS-AI_Powered_Intelligent_Systems-0D1117?style=for-the-badge&labelColor=3D0000"/>
-<br/>
-<img src="https://img.shields.io/badge/ARCHITECTURE-Microservices_·_Event_Driven_·_DDD-0D1117?style=for-the-badge&labelColor=8B0000"/>
-<br/>
-<img src="https://img.shields.io/badge/MISSION-Engineer_systems_that_millions_rely_on-0D1117?style=for-the-badge&labelColor=5C0000"/>
-<br/>
-<img src="https://img.shields.io/badge/PHILOSOPHY-Precision_in_every_line._Purpose_in_every_system.-0D1117?style=for-the-badge&labelColor=3D0000"/>
-<br/>
-<img src="https://img.shields.io/badge/📧_CONTACT-shoaibaali1945@gmail.com-0D1117?style=for-the-badge&labelColor=C9A96E"/>
+<img src="https://img.shields.io/badge/ARCH-Microservices_·_Event--Driven_·_DDD-0D1117?style=for-the-badge&labelColor=3D0000"/>
+<br/><br/>
+</td>
 
+<td width="50%" align="center">
+<br/>
+<img src="https://img.shields.io/badge/%20%E2%97%88%20DIRECTIVE%20%E2%97%88%20-C9A96E?style=for-the-badge&labelColor=0D1117"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/FOCUS-AI--Powered_Intelligent_Systems-0D1117?style=for-the-badge&labelColor=8B0000"/>
+<br/>
+<img src="https://img.shields.io/badge/MISSION-Systems_that_millions_rely_on-0D1117?style=for-the-badge&labelColor=5C0000"/>
+<br/>
+<img src="https://img.shields.io/badge/CREED-Precision_·_Purpose_·_Elegance-0D1117?style=for-the-badge&labelColor=3D0000"/>
+<br/><br/>
+</td>
+
+</tr>
+<tr>
+<td colspan="2" align="center">
+<br/>
+<img src="https://img.shields.io/badge/ORIGIN-Pakistan_→_Global-0D1117?style=for-the-badge&labelColor=5C0000"/>
+&nbsp;&nbsp;
+<a href="mailto:shoaibaali1945@gmail.com">
+  <img src="https://img.shields.io/badge/📧_shoaibaali1945@gmail.com-0D1117?style=for-the-badge&labelColor=C9A96E"/>
+</a>
 <br/><br/>
 </td>
 </tr>
@@ -94,37 +111,25 @@
 
 <td width="33%" align="center">
 <br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50"/>
+<img src="https://img.shields.io/badge/✦_FRONTEND-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/✦_FRONTEND-C9A96E?style=for-the-badge&labelColor=0D1117" alt="Frontend"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux&theme=dark" height="36"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=tailwind,ts,sass&theme=dark" height="36"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,ts,sass&perline=3&theme=dark" height="90"/>
 <br/><br/>
 </td>
 
 <td width="33%" align="center">
 <br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50"/>
+<img src="https://img.shields.io/badge/✦_BACKEND-8B0000?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/✦_BACKEND-8B0000?style=for-the-badge&labelColor=0D1117" alt="Backend"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" height="36"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=postgres,firebase,prisma&theme=dark" height="36"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,firebase,prisma&perline=3&theme=dark" height="90"/>
 <br/><br/>
 </td>
 
 <td width="33%" align="center">
 <br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50"/>
+<img src="https://img.shields.io/badge/✦_AI_/_ML-3D0000?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/✦_AI_/_ML-3D0000?style=for-the-badge&labelColor=0D1117" alt="AI/ML"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" height="36"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=python,anaconda,sklearn&theme=dark" height="36"/>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,python,anaconda,sklearn&perline=3&theme=dark" height="90"/>
 <br/><br/>
 </td>
 
@@ -155,7 +160,7 @@
 <tr>
 <td align="center">
 <br/>
-<img src="https://img.shields.io/badge/⌨️_LANGUAGES-C9A96E?style=for-the-badge&labelColor=0D1117" alt="Languages"/>
+<img src="https://img.shields.io/badge/⌨️_LANGUAGES-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,cs,php&theme=dark" height="45"/>
 <br/><br/>
@@ -179,7 +184,7 @@
 <tr>
 <td align="center">
 <br/>
-<img src="https://img.shields.io/badge/🎨_FRONTEND_MASTERY-C9A96E?style=for-the-badge&labelColor=0D1117" alt="Frontend"/>
+<img src="https://img.shields.io/badge/🎨_FRONTEND_MASTERY-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,bootstrap,html,css,sass&theme=dark" height="45"/>
 <br/><br/>
@@ -204,7 +209,7 @@
 <tr>
 <td align="center">
 <br/>
-<img src="https://img.shields.io/badge/⚙️_BACKEND_&_DATABASE-C9A96E?style=for-the-badge&labelColor=0D1117" alt="Backend"/>
+<img src="https://img.shields.io/badge/⚙️_BACKEND_&_DATABASE-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,firebase,redis,prisma&theme=dark" height="45"/>
 <br/><br/>
@@ -229,7 +234,7 @@
 <tr>
 <td align="center">
 <br/>
-<img src="https://img.shields.io/badge/🤖_AI_/_MACHINE_LEARNING-C9A96E?style=for-the-badge&labelColor=0D1117" alt="AI/ML"/>
+<img src="https://img.shields.io/badge/🤖_AI_/_MACHINE_LEARNING-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,python,anaconda,sklearn&theme=dark" height="45"/>
 <br/><br/>
@@ -253,7 +258,7 @@
 <tr>
 <td align="center">
 <br/>
-<img src="https://img.shields.io/badge/🛠️_DEVOPS_&_TOOLS-C9A96E?style=for-the-badge&labelColor=0D1117" alt="DevOps"/>
+<img src="https://img.shields.io/badge/🛠️_DEVOPS_&_TOOLS-C9A96E?style=for-the-badge&labelColor=0D1117"/>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,linux,figma,vercel,netlify&theme=dark" height="45"/>
 <br/><br/>
@@ -348,9 +353,30 @@
 
 <br/>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
+</div>
 
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                  ◈ 3D ISOMETRIC CONTRIBUTIONS ◈                       -->
+<!--                                                                       -->
+<!--  Requires .github/workflows/3d-contrib.yml                            -->
+<!--  (see previous instructions — uses yoshi389111/github-profile-3d)     -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
+<div align="center">
+  <img src="https://img.shields.io/badge/%20%E2%97%88%20%203D%20CONTRIBUTIONS%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="3D Contributions"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Chart" width="98%"/>
+</div>
+
+<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
@@ -359,45 +385,22 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                      ◈ CONTRIBUTION SNAKE ◈                           -->
+<!--                   ◈ CONTRIBUTION CALENDAR ◈                           -->
 <!--                                                                       -->
-<!--  Requires a GitHub Action. Create .github/workflows/snake.yml:        -->
-<!--                                                                       -->
-<!--     name: Generate Snake                                              -->
-<!--     on:                                                               -->
-<!--       schedule:                                                       -->
-<!--         - cron: "0 0 * * *"                                           -->
-<!--       workflow_dispatch:                                               -->
-<!--     jobs:                                                             -->
-<!--       build:                                                          -->
-<!--         runs-on: ubuntu-latest                                        -->
-<!--         steps:                                                        -->
-<!--           - uses: Platane/snk@v3                                      -->
-<!--             with:                                                     -->
-<!--               github_user_name: ShoaibAli7869                         -->
-<!--               outputs: |                                              -->
-<!--                 dist/github-snake.svg                                 -->
-<!--                 dist/github-snake-dark.svg?palette=github-dark        -->
-<!--           - uses: crazy-max/ghaction-github-pages@v3.1.0              -->
-<!--             with:                                                     -->
-<!--               target_branch: output                                   -->
-<!--               build_dir: dist                                         -->
-<!--             env:                                                      -->
-<!--               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}               -->
+<!--  Replaces the contribution snake.                                     -->
+<!--  Requires .github/workflows/metrics.yml (see File 2 above).          -->
+<!--  Also requires a METRICS_TOKEN secret (PAT with read:user scope).    -->
+<!--  Run the workflow manually once, then it auto-updates daily.          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20CONTRIBUTION%20SNAKE%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Snake"/>
+  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20CONTRIBUTION%20CALENDAR%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Contribution Calendar"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/output/github-snake-dark.svg" width="100%"/>
-  </picture>
+  <img src="./metrics-isocalendar.svg" alt="Isometric Contribution Calendar" width="98%"/>
 </div>
 
 <br/>
@@ -442,7 +445,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=18&duration=4500&pause=3000&color=C9A96E&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%E2%80%9CThe+quietest+systems+carry+the+heaviest+loads.%E2%80%9D;%E2%80%9CPrecision+is+not+perfection+%E2%80%94+it's+purpose+with+elegance.%E2%80%9D;%E2%80%9CGreat+architecture+is+invisible+to+users%2C+unforgettable+to+engineers.%E2%80%9D" alt="Quote" />
+<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=18&duration=4500&pause=3000&color=C9A96E&center=true&vCenter=true&repeat=true&width=650&height=35&lines=%E2%80%9CThe+quietest+systems+carry+the+heaviest+loads.%E2%80%9D;%E2%80%9CPrecision+is+not+perfection+%E2%80%94+it's+purpose+with+elegance.%E2%80%9D;%E2%80%9CGreat+architecture+is+invisible+to+users%2C+unforgettable+to+engineers.%E2%80%9D" alt="Quote"/>
 
 <br/>
 
