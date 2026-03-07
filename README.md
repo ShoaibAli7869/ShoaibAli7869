@@ -296,16 +296,13 @@
 <br/>
 
 <div align="center">
-  <img height="200" src="https://github-readme-stats.vercel.app/api?username=ShoaibAli7869&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=C9A96E&icon_color=C9A96E&text_color=8B949E&ring_color=8B0000&rank_icon=github&border_radius=16&card_width=470" alt="Stats"/>
+
   &nbsp;&nbsp;
   <img height="200" src="https://streak-stats.demolab.com/?user=ShoaibAli7869&hide_border=true&background=00000000&stroke=161B22&ring=8B0000&fire=C9A96E&currStreakLabel=C9A96E&sideLabels=C9A96E&currStreakNum=8B949E&sideNums=8B949E&dates=3D0000&border_radius=16" alt="Streak"/>
 </div>
 
 <br/>
 
-<div align="center">
-  <img height="240" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShoaibAli7869&layout=donut-vertical&hide_border=true&bg_color=00000000&title_color=C9A96E&text_color=8B949E&langs_count=8&border_radius=16&card_width=340" alt="Top Languages"/>
-</div>
 
 <br/>
 
