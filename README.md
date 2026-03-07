@@ -338,69 +338,17 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         ◈ ACHIEVEMENTS ◈                              -->
+<!--                   ◈ ISOMETRIC COMMIT CALENDAR ◈                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20ACHIEVEMENTS%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Achievements"/>
+  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20ISOMETRIC%20CALENDAR%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Isometric Calendar"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ShoaibAli7869&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies" width="98%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                  ◈ 3D ISOMETRIC CONTRIBUTIONS ◈                       -->
-<!--                                                                       -->
-<!--  Requires .github/workflows/3d-contrib.yml                            -->
-<!--  (see previous instructions — uses yoshi389111/github-profile-3d)     -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%203D%20CONTRIBUTIONS%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="3D Contributions"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ShoaibAli7869/ShoaibAli7869/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Chart" width="98%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                   ◈ CONTRIBUTION CALENDAR ◈                           -->
-<!--                                                                       -->
-<!--  Replaces the contribution snake.                                     -->
-<!--  Requires .github/workflows/metrics.yml (see File 2 above).          -->
-<!--  Also requires a METRICS_TOKEN secret (PAT with read:user scope).    -->
-<!--  Run the workflow manually once, then it auto-updates daily.          -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20CONTRIBUTION%20CALENDAR%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Contribution Calendar"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./metrics-isocalendar.svg" alt="Isometric Contribution Calendar" width="98%"/>
+  <img src="./metrics-isocalendar.svg" alt="Isometric Commit Calendar" width="98%"/>
 </div>
 
 <br/>
