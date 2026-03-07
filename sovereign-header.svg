@@ -11,89 +11,125 @@
       <stop offset="70%" stop-color="#C9A96E"/>
       <stop offset="100%" stop-color="#8B7340"/>
     </linearGradient>
-    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#D4AF37"/>
-      <stop offset="100%" stop-color="#8B7340"/>
-    </linearGradient>
     <linearGradient id="statbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0c1020"/>
       <stop offset="100%" stop-color="#080c16"/>
     </linearGradient>
-    <radialGradient id="aura" cx="50%" cy="35%" r="20%">
-      <stop offset="0%" stop-color="#C9A96E" stop-opacity=".02"/>
-      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
-    </radialGradient>
     <filter id="g1"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="g3"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="clip"><rect width="1000" height="360" rx="12"/></clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
     <rect width="1000" height="360" fill="url(#bg)"/>
-    <rect width="1000" height="360" fill="url(#aura)"/>
 
-    <!-- ═══ HEXAGONAL RINGS ═══ -->
-    <!-- Outer hex -->
-    <polygon points="500,42 558,72 558,132 500,162 442,132 442,72" fill="none" stroke="#C9A96E" stroke-width=".25" opacity=".08"/>
-    <!-- Inner hex -->
-    <polygon points="500,52 550,78 550,126 500,152 450,126 450,78" fill="none" stroke="#C9A96E" stroke-width=".15" opacity=".05"/>
+    <!-- ═══ DRIFTING PARTICLES ═══ -->
+    <!-- Large slow drifters (background layer) -->
+    <circle cx="0" cy="80" r="1.2" fill="#8B0000" opacity=".06">
+      <animateMotion dur="45s" repeatCount="indefinite" path="M0,0 L1100,20"/>
+    </circle>
+    <circle cx="0" cy="180" r="1.5" fill="#C9A96E" opacity=".04">
+      <animateMotion dur="55s" repeatCount="indefinite" path="M0,0 L1100,-10"/>
+    </circle>
+    <circle cx="0" cy="300" r="1" fill="#5C0000" opacity=".05">
+      <animateMotion dur="50s" repeatCount="indefinite" path="M0,0 L1100,15"/>
+    </circle>
 
-    <!-- Corner accents on outer hex -->
-    <circle cx="500" cy="42" r="1.5" fill="#C9A96E" opacity=".1">
+    <!-- Medium drifters -->
+    <circle cx="0" cy="50" r=".8" fill="#C9A96E" opacity=".1">
+      <animateMotion dur="30s" repeatCount="indefinite" path="M0,0 L1100,30"/>
+    </circle>
+    <circle cx="0" cy="130" r=".6" fill="#8B0000" opacity=".12">
+      <animateMotion dur="28s" repeatCount="indefinite" path="M0,0 L1100,-15"/>
+    </circle>
+    <circle cx="0" cy="220" r=".7" fill="#C9A96E" opacity=".08">
+      <animateMotion dur="35s" repeatCount="indefinite" path="M0,0 L1100,5"/>
+    </circle>
+    <circle cx="0" cy="280" r=".9" fill="#8B0000" opacity=".07">
+      <animateMotion dur="32s" repeatCount="indefinite" path="M0,0 L1100,-20"/>
+    </circle>
+    <circle cx="0" cy="340" r=".5" fill="#C9A96E" opacity=".09">
+      <animateMotion dur="38s" repeatCount="indefinite" path="M0,0 L1100,10"/>
+    </circle>
+
+    <!-- Small fast drifters (foreground layer) -->
+    <circle cx="0" cy="40" r=".4" fill="#C9A96E" opacity=".18">
+      <animateMotion dur="18s" repeatCount="indefinite" path="M0,0 L1100,40"/>
+    </circle>
+    <circle cx="0" cy="95" r=".35" fill="#D4AF37" opacity=".15">
+      <animateMotion dur="22s" repeatCount="indefinite" path="M0,0 L1100,-25"/>
+    </circle>
+    <circle cx="0" cy="160" r=".3" fill="#8B0000" opacity=".2">
+      <animateMotion dur="20s" repeatCount="indefinite" path="M0,0 L1100,15"/>
+    </circle>
+    <circle cx="0" cy="250" r=".4" fill="#C9A96E" opacity=".14">
+      <animateMotion dur="24s" repeatCount="indefinite" path="M0,0 L1100,-10"/>
+    </circle>
+    <circle cx="0" cy="310" r=".3" fill="#8B0000" opacity=".16">
+      <animateMotion dur="19s" repeatCount="indefinite" path="M0,0 L1100,30"/>
+    </circle>
+
+    <!-- Reverse drifters (depth illusion) -->
+    <circle cx="1000" cy="70" r=".5" fill="#5C0000" opacity=".06">
+      <animateMotion dur="40s" repeatCount="indefinite" path="M0,0 L-1100,10"/>
+    </circle>
+    <circle cx="1000" cy="200" r=".6" fill="#C9A96E" opacity=".05">
+      <animateMotion dur="48s" repeatCount="indefinite" path="M0,0 L-1100,-15"/>
+    </circle>
+    <circle cx="1000" cy="330" r=".4" fill="#8B0000" opacity=".07">
+      <animateMotion dur="42s" repeatCount="indefinite" path="M0,0 L-1100,5"/>
+    </circle>
+
+    <!-- Twinkling stationary particles -->
+    <circle cx="120" cy="45" r=".5" fill="#C9A96E" opacity=".08">
+      <animate attributeName="opacity" values=".08;.22;.08" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="870" cy="65" r=".6" fill="#8B0000" opacity=".06">
+      <animate attributeName="opacity" values=".06;.18;.06" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="30" r=".4" fill="#C9A96E" opacity=".1">
       <animate attributeName="opacity" values=".1;.25;.1" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="558" cy="72" r="1" fill="#C9A96E" opacity=".06"/>
-    <circle cx="558" cy="132" r="1" fill="#C9A96E" opacity=".06"/>
-    <circle cx="500" cy="162" r="1.5" fill="#C9A96E" opacity=".1">
-      <animate attributeName="opacity" values=".1;.25;.1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+    <circle cx="640" cy="340" r=".5" fill="#8B0000" opacity=".07">
+      <animate attributeName="opacity" values=".07;.2;.07" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="442" cy="132" r="1" fill="#C9A96E" opacity=".06"/>
-    <circle cx="442" cy="72" r="1" fill="#C9A96E" opacity=".06"/>
-
-    <!-- ═══ MONOGRAM "SA" ═══ -->
-    <!-- S -->
-    <path d="M480,78 Q480,72 486,72 L496,72 Q502,72 502,78 L502,82 Q502,88 496,88 L486,88 Q480,88 480,94 L480,96 Q480,102 486,102 L496,102 Q502,102 502,96" fill="none" stroke="url(#goldV)" stroke-width="1.2" opacity=".35"/>
-    <!-- A -->
-    <path d="M510,102 L516,72 L522,102 M512,92 L520,92" fill="none" stroke="url(#goldV)" stroke-width="1.2" opacity=".35"/>
-
-    <!-- Subtle glow behind monogram -->
-    <ellipse cx="500" cy="87" rx="25" ry="20" fill="#C9A96E" opacity=".01" filter="url(#g3)"/>
-
-    <!-- ═══ DECORATIVE LINES ═══ -->
-    <line x1="320" y1="102" x2="430" y2="102" stroke="#C9A96E" stroke-width=".2" opacity=".06"/>
-    <line x1="570" y1="102" x2="680" y2="102" stroke="#C9A96E" stroke-width=".2" opacity=".06"/>
+    <circle cx="50" cy="290" r=".3" fill="#C9A96E" opacity=".06"/>
+    <circle cx="960" cy="280" r=".35" fill="#5C0000" opacity=".05"/>
 
     <!-- ═══ NAME ═══ -->
-    <text x="500" y="210" font-family="'Courier New',Courier,monospace" font-size="42" fill="url(#gold)" font-weight="bold" text-anchor="middle" filter="url(#g1)" letter-spacing="8">SHOAIB ALI</text>
+    <text x="500" y="128" font-family="'Courier New',Courier,monospace" font-size="44" fill="url(#gold)" font-weight="bold" text-anchor="middle" filter="url(#g1)" letter-spacing="8">SHOAIB ALI</text>
 
     <!-- ═══ ROLE ═══ -->
-    <text x="500" y="238" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#5C0000" text-anchor="middle" letter-spacing="3" opacity=".38">FULL STACK ARCHITECT  ·  AI ENGINEER  ·  SYSTEM DESIGNER</text>
+    <text x="500" y="158" font-family="'Courier New',Courier,monospace" font-size="11" fill="#5C0000" text-anchor="middle" letter-spacing="3" opacity=".4">FULL STACK ARCHITECT  ·  AI ENGINEER  ·  SYSTEM DESIGNER</text>
+
+    <!-- ═══ QUOTE ═══ -->
+    <text x="500" y="192" font-family="Georgia,serif" font-size="10" fill="#C9A96E" text-anchor="middle" opacity=".15" font-style="italic">"Precision in every line · Purpose in every system"</text>
 
     <!-- ═══ STATS ═══ -->
-    <g opacity=".7">
-      <text x="195" y="292" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" text-anchor="middle" letter-spacing="2" opacity=".5">CONTRIBUTIONS</text>
-      <text x="195" y="316" font-family="'Courier New',monospace" font-size="22" fill="#8B0000" font-weight="bold" text-anchor="middle">500+</text>
+    <rect x="150" y="218" width="150" height="46" fill="url(#statbg)" stroke="#8B0000" stroke-width=".15" rx="4" opacity=".55"/>
+    <rect x="150" y="218" width="1.5" height="46" fill="#8B0000" rx=".75" opacity=".25"/>
+    <text x="162" y="234" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" letter-spacing="2" opacity=".4">CONTRIBUTIONS</text>
+    <text x="162" y="256" font-family="'Courier New',monospace" font-size="24" fill="#8B0000" font-weight="bold" opacity=".65">500+</text>
 
-      <line x1="290" y1="282" x2="290" y2="322" stroke="#8B0000" stroke-width=".15" opacity=".15"/>
+    <rect x="320" y="218" width="150" height="46" fill="url(#statbg)" stroke="#C9A96E" stroke-width=".15" rx="4" opacity=".55"/>
+    <rect x="320" y="218" width="1.5" height="46" fill="#C9A96E" rx=".75" opacity=".25"/>
+    <text x="332" y="234" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" letter-spacing="2" opacity=".4">REPOSITORIES</text>
+    <text x="332" y="256" font-family="'Courier New',monospace" font-size="24" fill="#C9A96E" font-weight="bold" opacity=".65">40+</text>
 
-      <text x="385" y="292" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" text-anchor="middle" letter-spacing="2" opacity=".5">REPOSITORIES</text>
-      <text x="385" y="316" font-family="'Courier New',monospace" font-size="22" fill="#C9A96E" font-weight="bold" text-anchor="middle">40+</text>
+    <rect x="530" y="218" width="150" height="46" fill="url(#statbg)" stroke="#C9A96E" stroke-width=".15" rx="4" opacity=".55"/>
+    <rect x="530" y="218" width="1.5" height="46" fill="#C9A96E" rx=".75" opacity=".25"/>
+    <text x="542" y="234" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" letter-spacing="2" opacity=".4">STARS EARNED</text>
+    <text x="542" y="256" font-family="'Courier New',monospace" font-size="24" fill="#C9A96E" font-weight="bold" opacity=".65">100+</text>
 
-      <line x1="480" y1="282" x2="480" y2="322" stroke="#C9A96E" stroke-width=".15" opacity=".15"/>
-
-      <text x="575" y="292" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" text-anchor="middle" letter-spacing="2" opacity=".5">STARS EARNED</text>
-      <text x="575" y="316" font-family="'Courier New',monospace" font-size="22" fill="#C9A96E" font-weight="bold" text-anchor="middle">100+</text>
-
-      <line x1="670" y1="282" x2="670" y2="322" stroke="#8B0000" stroke-width=".15" opacity=".15"/>
-
-      <text x="765" y="292" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" text-anchor="middle" letter-spacing="2" opacity=".5">ACHIEVEMENTS</text>
-      <text x="765" y="316" font-family="'Courier New',monospace" font-size="22" fill="#8B0000" font-weight="bold" text-anchor="middle">15+</text>
-    </g>
+    <rect x="700" y="218" width="150" height="46" fill="url(#statbg)" stroke="#8B0000" stroke-width=".15" rx="4" opacity=".55"/>
+    <rect x="700" y="218" width="1.5" height="46" fill="#8B0000" rx=".75" opacity=".25"/>
+    <text x="712" y="234" font-family="'Courier New',monospace" font-size="7" fill="#5C0000" letter-spacing="2" opacity=".4">ACHIEVEMENTS</text>
+    <text x="712" y="258" font-family="'Courier New',monospace" font-size="24" fill="#8B0000" font-weight="bold" opacity=".65">15+</text>
 
     <!-- ═══ FOOTER ═══ -->
-    <text x="500" y="350" font-family="'Courier New',monospace" font-size="8" fill="#C9A96E" text-anchor="middle" opacity=".14" letter-spacing="1.5">gh://ShoaibAli7869</text>
+    <text x="500" y="302" font-family="Georgia,serif" font-size="9" fill="#5C0000" text-anchor="middle" opacity=".16" letter-spacing="1">Pakistan → Global</text>
+    <text x="500" y="340" font-family="'Courier New',monospace" font-size="8.5" fill="#C9A96E" text-anchor="middle" opacity=".14" letter-spacing="1.5">gh://ShoaibAli7869</text>
 
     <!-- Frame -->
-    <rect x="1" y="1" width="998" height="358" rx="12" fill="none" stroke="#8B0000" stroke-width=".1" opacity=".15"/>
+    <rect x="1" y="1" width="998" height="358" rx="12" fill="none" stroke="#8B0000" stroke-width=".1" opacity=".12"/>
   </g>
 </svg>
