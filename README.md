@@ -312,49 +312,6 @@
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                     ◈ CONTRIBUTION TIMELINE ◈                         -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20CONTRIBUTION%20TIMELINE%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Contribution Graph"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ShoaibAli7869&bg_color=0D1117&color=8B949E&line=8B0000&point=C9A96E&area_color=1a0000&area=true&hide_border=true&custom_title=Contribution%20Architecture&title_color=C9A96E&radius=16" alt="Activity Graph" width="98%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,15:1a0505,30:3D0000,45:5C0000,50:C9A96E,55:5C0000,70:3D0000,85:1a0505,100:0D1117&height=3&section=header" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                   ◈ ISOMETRIC COMMIT CALENDAR ◈                       -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/%20%E2%97%88%20%20ISOMETRIC%20CALENDAR%20%20%E2%97%88%20-8B0000?style=for-the-badge&labelColor=0D1117" alt="Isometric Calendar"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./metrics-isocalendar.svg" alt="Isometric Commit Calendar" width="98%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,25:3D0000,50:C9A96E,75:3D0000,100:0D1117&height=2&section=header" width="100%"/>
-</div>
-
-<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                        ◈ LET'S CONNECT ◈                             -->
