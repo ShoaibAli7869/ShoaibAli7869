@@ -124,69 +124,7 @@
 <br/>
 
 <div align="center">
-<table width="100%">
-
-<!-- ───────────── WAPDA AJK ───────────── -->
-<tr>
-<td width="32%" align="center" valign="top">
-<br/>
-<img src="https://img.shields.io/badge/%E2%97%88_01-C9A96E?style=for-the-badge&labelColor=0D1117"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/WAPDA_AJK-0D1117?style=for-the-badge&labelColor=8B0000"/>
-<br/><br/>
-<b>Desktop &amp; Web Development Intern</b>
-<br/><br/>
-<img src="https://img.shields.io/badge/●_IN_ACTIVE_OPERATIONAL_USE-0D1117?style=flat-square&labelColor=C9A96E"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/C%23-0D1117?style=flat-square&logo=csharp&logoColor=512BD4"/>
-<img src="https://img.shields.io/badge/Desktop_App-0D1117?style=flat-square&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Web_Platform-0D1117?style=flat-square&logoColor=C9A96E"/>
-<br/><br/>
-</td>
-<td width="68%" align="left" valign="top">
-<br/>
-<b>Fault &amp; Issue Management System</b> · <sub>digitizing fault reporting across departments</sub>
-<br/><br/>
-<code>▸</code> Designed and built a <b>full-scale fault and issue management system</b> to replace manual reporting of system faults and operational issues.<br/><br/>
-<code>▸</code> Developed a <b>C# desktop application</b> for field-level fault logging and real-time issue tracking.<br/><br/>
-<code>▸</code> Built a companion <b>web interface</b> giving supervisors centralized visibility into issues and resolution progress.<br/><br/>
-<code>▸</code> Added <b>automated fault escalation</b> to cut resolution turnaround time.<br/><br/>
-<code>▸</code> <b>Deployed both</b> the desktop application and web platform into active operational use.
-<br/><br/>
-</td>
-</tr>
-
-<!-- ───────────── NTC MUST ───────────── -->
-<tr>
-<td width="32%" align="center" valign="top">
-<br/>
-<img src="https://img.shields.io/badge/%E2%97%88_02-C9A96E?style=for-the-badge&labelColor=0D1117"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/NTC_MUST,_MIRPUR-0D1117?style=for-the-badge&labelColor=5C0000"/>
-<br/><br/>
-<b>Backend Development Intern</b>
-<br/><br/>
-<img src="https://img.shields.io/badge/⏱_8_WEEKS-0D1117?style=flat-square&labelColor=C9A96E"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Express-0D1117?style=flat-square&logo=express&logoColor=FFFFFF"/>
-<img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4"/>
-<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1"/>
-<img src="https://img.shields.io/badge/Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4"/>
-<br/><br/>
-</td>
-<td width="68%" align="left" valign="top">
-<br/>
-<b>School Campus Management System</b> · <sub>student records, attendance &amp; grades</sub>
-<br/><br/>
-<code>▸</code> Developed <b>RESTful APIs</b> with Express.js and PHP, collaborating on backend architecture and database integration.<br/><br/>
-<code>▸</code> Designed and built a <b>School Campus Management System</b> in PHP, Tailwind CSS and MySQL covering student records, attendance tracking and grade management.<br/><br/>
-<code>▸</code> Architected a <b>normalized MySQL schema</b> for student, faculty and administrative data, with scalability in mind.<br/><br/>
-<code>▸</code> Built a <b>responsive, role-based admin panel</b> for managing enrollment, academic records and reporting from one unified interface.
-<br/><br/>
-</td>
-</tr>
-
-</table>
+  <img src="./experience-timeline.svg" width="100%" alt="Experience timeline: WAPDA AJK (Desktop &amp; Web Development Intern) and NTC MUST Mirpur (Backend Development Intern)"/>
 </div>
 
 <br/>
